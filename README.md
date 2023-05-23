@@ -4,4 +4,4 @@ The GermaParl2 corpus provides all parliamentary debates of the German Bundestag
 
 In addition, we use this repository to gather feedback on the GermaParl v2 corpus. Creating a so-called issue in this repository to report remaining bugs and flaws in the data and suggest new features is a great way to contribute to the resource. We really appreciate any feedback you might be able to provide for both the TEI/XML version and the CWB version of the corpus. We will use issues to structure upcoming releases of the resource.
 
-On GitHub, the creating of issues is described [here](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue).
+On GitHub, the creation of issues is described [here](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue).
