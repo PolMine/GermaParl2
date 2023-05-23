@@ -1,0 +1,67 @@
+# Next Steps{#next-steps}
+
+:::: {.redbox data-latex=""}
+_ATTENTION:_ This does not need to be part of this documentation and probably depends on the timeline of the release. Also obviously very preliminary.
+::::
+
+The current formats of dissemination make GermaParl available for a great number of use cases. For social science research in particular, the CWB corpus should provide a comprehensive research resource which aims for a pronounced level of usability.
+
+Still, there are potentials which are not yet fully exploited. Concerning the usability of the XML version of the corpus, a stronger focus on comparability and interoperability is advised. While the XML/TEI format used for the current version serves the purpose of the corpus well, it does not fully resemble a true TEI standard and limits the usability of the resource for users who want to use the XML representation directly. At this point, the ParlaMint TEI standard [@erjavec_parlamint_2022] provides a great avenue towards greater standardization. 
+
+## Towards ParlaMint
+
+`r link_or_footnote('ParlaMint', "https://clarin-eric.github.io/ParlaMint/", "2022-11-14")` is a XML/TEI standard for parliamentary proceedings. Compared to the XML formats described in the previous section, ParlaMint differs in some aspects. Apart from the obvious differences in the naming scheme of nodes and attributes, the major difference is that ParlaMint works with a distinct pointer logic: The corpus is represented by one XML document which is spread over multiple XML files. This means that there is one **corpus root file** containing information about organizations such as parties or parliamentary groups, speakers as well as general information about the represented parliament itself and **session specific documents** which only contain references or pointers to entries in the **corpus root file**. 
+
+In addition and in contrast to the initial GermaParl XML format, the XML format itself is annotated a lot more thoroughly. While the GermaParl XML format contains structural annotation and some additional information, the ParlaMint standard includes more comprehensive information on the participants of debates as well as the parliamentary process as a whole. The following points are obvious addition to the GermaParl TEI standard:
+
+* each utterance, segment, sentence and word is equipped with an unique IDs
+* speakers contain more detailed biographical information, for example "sex"
+* parliamentary groups and parties contain more detailed information such as a their political orientation
+* there is additional information about the parliament in general
+
+Each session specific ParlaMint XML comes in two versions: the structurally annotated version described above and a version containing the entire linguistic annotation. This version does not only include the linguistic annotation described in previous sections of the documentation but also additional annotation layers like morphological features and the syntactic structure of sentences as the result of syntactic parsing.
+
+Currently (`r format(as.Date(Sys.Date()), "%B %Y")`), the first attempts to create a ParlaMint version of GermaParl include the following steps: 
+
+* parse each session according to the ParlaMint standard and create or update the **corpus root file** with new participants
+* enrich participants with external data sources
+* add linguistic annotation via Stanford CoreNLP [@manning_stanford_2014] (for tokenization, sentence annotation, UD-POS-Tagging, named entity recognition, syntactic parsing) and UDPipe [@straka-etal-2016-udpipe] (for language specific POS-Tagging, lemmatization and morphological features)
+
+Among other things, this standardization should make it possible to develop and use tools which can be useful for a number of use cases. The ParlaMint community already provides some tools which facilitate the import of the ParlaMint XML data into different concordancers as well as scripts to convert the data into VRT-XMLs which in turn can be imported into the Corpus Workbench. 
+
+Other steps, in particular concerning the addition of supplementary information on participants, is still necessary at this point. However, in the following section, a first glimpse into the XML structure of the ParlaMint version of the corpus should be provided.
+
+### XML structure of a session{-}
+
+#### TEI-Header{-}
+
+Similar to the initial GermaParl TEI, the ParlaMint XML starts with a header containing session specific metadata.
+
+:::: {.redbox data-latex=""}
+_ATTENTION:_ THIS IS PRELIMINARILY THE SAME HEADER.
+::::
+
+\scriptsize
+
+```{r parlamint_xml_structure_header, echo = FALSE, echo = FALSE}
+parlamint_xml <- xml2::read_xml("./data_raw/ParlaMint-DE_1952-09-10.ana.min.xml")
+xml2::xml_structure(xml2::xml_find_all(parlamint_xml, ".//teiHeader"))
+```
+
+\normalsize
+
+The header of a ParlaMint session document corpus component contains some general metadata as well as specific information on the current session. 
+
+...
+
+#### TEI-Body{-}
+
+\scriptsize
+
+```{r parlamint_xml_structure_text, echo = FALSE, echo = FALSE}
+xml2::xml_structure(xml2::xml_find_all(parlamint_xml, ".//text"))
+```
+
+\normalsize
+
+The substantial text component of the ParlaMint file is structured similarly to the previous GermaParl TEI file. The text of the proceeding is wrapped in a single `<text>` node which contains a single `<body>` node. In this `<body>` node, agenda items are nested as `<div>` nodes. In contrast to the previous TEI version, in this version individual utterances are added as `<u>` nodes. These have three attributes: **who** which acts as a pointer to a speaker list in the corpus root file, **id** which characterizes the running id of the current utterance within the session and **ana** which points to the role a speaker has when speaking. This role is also a mere pointer to a list of possible roles in a corpus root file. Within these utterance nodes, there are different substantial text nodes which are called `<seg>`. These segments correspond to paragraphs and have a running id value as well. In addition, the `<u>` nodes can have other children which describe non-vocal occurrences or remarks such as transcriber comments. Each `<seg>` node contains sentence nodes `<s>`. These also have an id value which is based on the id of its `<seg>` parent node. Ultimately, each `<s>` node contains the tokens as `<w>` nodes. These nodes also contain the full linguistic annotation, including the language-specific Part-of-Speech-tags (**pos**), lemmata (**lemma**) as well as UD-Part-of-Speech tags and morphological features (in one attribute named **msd**). Each individual word has an id based on the id of its sentence node. As before, named entities can span multiple tokens and are encoded as parents of `<w>` nodes but as children of `<s>` nodes. These nodes are called `<name>` and have a **type** attribute. Finally, each sentence node `<s>` also contains the syntactic parse of the sentence. This is encoded as a linkGroup (`<linkGrp>`).

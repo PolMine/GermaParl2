@@ -1,0 +1,81 @@
+# Data and Resources, Tools and Packages{#data-resources}
+
+While used data as well as resources, tools and packages were mentioned in the previous sections, this chapter should briefly summarize these.
+
+## Data 
+
+### Protocols 
+
+The original protocols were downloaded from the Website of the German Bundestag which is also the source of the *Stammdaten* file. Wikipedia was used for additional information of speakers.
+
+`r if (knitr::is_html_output()) "The following table shows the source of each individual file" else "For a complete list of all sources, please see the online html version of this document."`
+
+```{r download-report-bt-sources, echo = FALSE, eval = knitr::is_html_output()}
+tei_files <- list.files("~/lab/github/GermaParlTEI_beta",
+                        pattern = ".xml",
+                        full.names = TRUE,
+                        recursive = TRUE)
+
+download_metadata <- lapply(tei_files, function(tei_file) {
+  tei <- xml2::read_xml(tei_file)
+  url <- xml2::xml_find_first(tei, "//url") |> xml2::xml_text()
+  date <- xml2::xml_find_first(tei, "//sourceDesc/date") |> xml2::xml_text()
+  type <- xml2::xml_find_first(tei, "//sourceDesc/filetype") |> xml2::xml_text()
+  data.table(
+    file = basename(tei_file),
+    url = url,
+    filetype = type,
+    date = date
+  )
+}
+)
+
+download_metadata_dt <- data.table::rbindlist(download_metadata)
+
+download_metadata_tbl <- download_metadata_dt |>
+  mutate(id_as_numeric = as.integer(gsub("BT_(\\d+)_(\\d+).xml", "\\1\\2", file))) |>
+  group_by(url, filetype) |>
+  mutate(min_protocol = file[which.min(id_as_numeric)]) |>
+  mutate(max_protocol = file[which.max(id_as_numeric)]) |>
+  ungroup() |>
+  select(url, date, filetype, min_protocol, max_protocol) |>
+  unique() 
+  
+download_metadata_tbl$protocols <- ifelse(download_metadata_tbl$min_protocol != download_metadata_tbl$max_protocol,
+                                          sprintf("%s - %s", download_metadata_tbl$min_protocol, download_metadata_tbl$max_protocol),
+                                          download_metadata_tbl$min_protocol)
+
+download_metadata_tbl$min_protocol <- NULL
+download_metadata_tbl$max_protocol <- NULL
+
+download_metadata_tbl <- download_metadata_tbl[, c("protocols", "date", "filetype", "url")]
+  
+knitr::kable(download_metadata_tbl, 
+             format = "html",
+             booktabs = TRUE, 
+             escape = TRUE,
+             col.names = c("protocol name(s)", "download date", "original filetype", "source url"),
+             caption = "Download Report of the GermaParl corpus ")
+```
+
+### External Data
+
+The majority of the information added to the initial protocols originates from the `r link_or_footnote("Stamdaten of the German Bundestag.", "https://www.bundestag.de/services/opendata", "2023-05-23")` It comprises information about Members of Parliament. Party affiliations are added from Wikipedia. In the preparation process, the Stammdaten file was converted into a data.table object which was then stored in a R data package for versioning and documentation purposes. Other speakers are enriched with Wikipedia. In cases in which no information about a speaker could be found on Wikipedia, `r link_or_footnote("Munzinger", "https://www.munzinger.de/search/start.jsp", "2023-05-23")` proofed a valuable resource for speaker names and party affiliations.
+
+## Tools
+
+### Stanford CoreNLP{-}
+
+For the current iteration of the corpus, the Java version of Stanford CoreNLP (version 4.5.x) was used to perform the initial linguistic annotation [@manning_stanford_2014]. More specifically, tokenization, splitting of sentences, Part-of-Speech tagging in the Universal Dependencies tag set and Named Entity Recognition were performed using the default German language model. To make use of the parallel computing capabilities of Stanford CoreNLP from within R, the R wrapper `bignlp` was developed in the context of the PolMine project [@bignlpRPackage]. It is available on `r link_or_footnote("GitHub.", "https://github.com/PolMine/bignlp", "2023-05-23")`
+
+### TreeTagger{-}
+
+To add lemmata and language specific Part-of-Speech tags to the current corpus, TreeTagger was used [@schmid_probabilistic_1994]. While not the most recent solution to add these annotation layers, TreeTagger is fast and robust.
+
+### Corpus Workbench{-}
+
+The corpus is also provided in the format of the the `r link_or_footnote("IMS Corpus Workbench.", "https://cwb.sourceforge.io/", "2023-05-23")`. The preparation workflow mainly communicates with the CWB via the `cwbtools` R package [@cwbtoolsRPackage] which is used for the encoding of the data.
+
+### Additional R Packages{-}
+
+The workflow is set up in R [@RCore]. For different parsers, the packages `xml2` [@xml2] and `stringr` [@stringr] provide important functionality. To facilitate the structural annotation of the protocols, the R package `r link_or_footnote("frappp", "https://polmine.github.io/frappp_slides/slides_en.html", "2023-05-23")` is crucial. The R package `trickypdf` [@trickypdf] was used to resolve the two-column layout of PDF files.

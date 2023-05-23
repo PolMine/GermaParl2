@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Plenarprotokoll</title>
+        <legislativePeriod>1</legislativePeriod>
+        <sessionNo>1</sessionNo>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <package>frappp</package>
+          <version>0.4.1.9010</version>
+          <birthday>2023-05-16</birthday>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Deutscher Bundestag</publisher>
+        <date when="">1949-09-07</date>
+        <page/>
+      </publicationStmt>
+      <sourceDesc>
+        <filetype>xml</filetype>
+        <url>https://www.bundestag.de/resource/blob/487966/4078f01fb3198dc3cee8945d6db3b231/pp01-data.zip</url>
+        <date>2023-02-24</date>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>PolMine-Project (www.polmine.de)</projectDesc>
+      <samplingDecl/>
+      <editorialDecl/>
+    </encodingDesc>
+    <profileDesc/>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="agenda_item" n="U1" what="election" desc="Namensaufruf der Abgeordneten und Wahl des Präsidenten">
+        <sp who="Labe" parliamentary_group="NA" role="presidency" position="Alterspräsident" who_original="Labe" party="SPD" name="Paul Löbe">
+          <speaker>Alterspräsident Labe:</speaker>
+          <p>Meine Damen und Herren! Abgeordnete des Deutschen Bundestags! Nach einem alten Brauch wird die erste Sitzung eines neuen Parlaments durch das an Jahren älteste Mitglied des Hauses eröffnet. Ich bin geboren am 14. Dezember 1875. Ich frage, ob sich ein Mitglied im Hause befindet, das zu einem früheren Termin geboren ist. — Offenbar ist das nicht der Fall. Dann erkläre ich die erste Sitzung des Bundestags der Bundesrepublik Deutschland für eröffnet. Meine Damen und Herren! Der Zufall hat es gefügt, daß ich als Alterspräsident vor Ihnen stehe als einer der Vertreter der alten deutschen Hauptstadt Berlin. In der Entsendung der Berliner Abgeordneten kommt der einheilige Wunsch seiner Bewohner zum Ausdruck, in dieses neue Deutschland einbezogen zu sein, und die Hoffnung, daß dieser Wunsch durch Ihre Arbeit bald seine Erfüllung finde.</p>
+          <stage type="interjection">(Lebhafter Beifall.)</stage>
+          <p>Aber nicht minder hoffnungsvoll, ich möchte sagen, Erlösung heischend sind heute die Augen jener Millionen deutscher Landsleute auf uns gerichtet, die in den deutschen Ostgebieten wohnen und deren Vertretern Besatzungsmacht oder fremde Verwaltung gewaltsam verwehrt, mit in diesem Saale zu sitzen und mit uns zu beraten. Indem wir die Wiedergewinnung der deutschen Einheit als erste unserer Aufgaben vor uns sehen, versichern wir gleichzeitig, daß dieses Deutschland ein aufrichtiges, von gutem Willen erfülltes Glied eines geeinten Europa sein will.</p>
+        </sp>
+        </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,70 @@
+# XML Structure{#xml-structure}
+
+When working with both the TEI/XML files directly or with the CWB version of the corpus, it is important to know the structure of the data. In the following, the TEI/XML is presented to illustrate this structure.
+
+In GermaParl, each session is represented in a separate XML file. These files are structured in a TEI-inspired format. The format structures debates into a TEI-Header containing metadata and a text body containing speeches of individual speakers and metadata on speaker level. Both elements are described in the following.
+
+## TEI-Header
+
+\scriptsize
+
+```{r germaparl_xml_structure_header, echo = FALSE}
+germaparltei_xml <- xml2::read_xml("./data_raw/BT_01_001_min.xml")
+xml2::xml_structure(xml2::xml_find_all(germaparltei_xml, ".//teiHeader"))
+```
+
+\normalsize
+
+The TEI-Header comprises of metadata containing general information about the corpus and the encoding project as well as session specific metadata such as the date, legislative period and the session number. There is a number of elements. The most important are: 
+
+- **titleStmt/legislativePeriod**: The legislative period of the debate.
+- **titleStmt/sessionNo**: The protocol or session number of the debate.
+- **edition/package**: The R package used to create the TEI.
+- **edition/birthday**: The date the TEI file was created.
+- **publicationStmt/date**: The date of the debate.
+- **sourceDesc/url**: The source URL of the raw file.
+- **sourceDesc/filetype**: The file type of the raw source file.
+
+## TEI-Text
+
+\scriptsize
+
+```{r germaparl_xml_structure_text, echo = FALSE}
+xml2::xml_structure(xml2::xml_find_all(germaparltei_xml, ".//text"))
+```
+
+\normalsize
+
+Every single XML file contains one single session. The entire debate is wrapped into a `<text>` node which contains a single `<body>` node. In this `<body>` node, every single agenda item is encoded as a `<div>` node. Each `<div>` node contains a number of attributes:
+
+- **type**: The type of agenda item.
+- **n**: The number of agenda item.
+- **what**: The category of agenda item.
+- **desc**: The verbatim call of the agenda item.
+
+Within these `<div>` nodes, each contribution of a speaker is encoded as a `<sp>` node. 
+
+Each `<sp>` node contains a number of attributes which were already addressed as structural attributes in the presentation of the data report:
+
+- **who**: The raw name of a speaker before "enhancing" the data. These might already adjusted and harmonized to facilitate the matching which is performed during this process.
+- **parliamentary_group**: The parliamentary group, mostly extracted from the protocol text. These might already adjusted and harmonized to facilitate the matching which is performed during this process.
+- **role**: The parliamentary role of a speaker, derived from the speaker call of the protocol text.
+- **position**: The parliamentary position of a speaker, i.e. which governmental office a speaker is associated with in the speaker call in the protocol text.
+- **party**: The party affiliation of a speaker, added during enhancing the raw protocol.
+- **name**: The full name of a speaker, added during enhancing the raw protocol.
+
+Except for the attribute of `position` which is not entirely consolidated due to the high amount of variation, these attributes are also part of the CWB corpus. Also the attribute `who_orignal` is mainly added to the TEI for documentation purposes. As shown before, the naming scheme was changed. This is discussed in `r link_or_footnote("the release note of GermaParl v2 Release Candidate 3.", "https://polmine.github.io/posts/2023/04/03/GermaParl-v2-beta3-Release-Note.html", "2023-05-22")`
+
+The first child of each `<sp>` node is a `<speaker>` node containing the speaker call. This line is used to segment the running text into speeches. After the speaker information is extracted from this line, this element is redundant and is thus not part of the CWB corpus.
+
+Utterances of speakers are then added as paragraphs as additional children of the `<sp>` node. In addition, interrupting interjections of other speakers or other non-verbal elements such as transcriber comments are added as `<stage>` nodes which represent elements which occur during a speaker's turn but are not substantial part of the current utterance. Each `<stage>` node has an attribute **type** which currently only has the value "interjection". In the CWB version, these stage nodes are represented as specific kinds of paragraph nodes of type "stage".
+
+The XML structure above depicts a single speech in a single agenda item. In most XML files, there will be more of these nodes.
+
+## XML in the CWB corpus
+
+While this TEI/XML format provides a structurally annotated representation of the data, the linguistic annotation is added to the data in form of a hierarchical XML representation. This is the file format imported into the Corpus Workbench. As the format is rather specific for our use case and entirely reproducible from the TEI version, we consider this format as a intermediate and do not provide it like the TEI version. However, it informs the internal structure of the Corpus Workbench version of the corpus and thus, it is informative to consider its makeup. 
+
+This format and its consequences are discussed in some detail in `r link_or_footnote("the release note of GermaParl v2 Release Candidate 3.", "https://polmine.github.io/posts/2023/04/03/GermaParl-v2-beta3-Release-Note.html", "2023-05-22")` For the purposes of this documentation, it is important to note that this structure has consequences for the Corpus Workbench version of the corpus. 
+
+The hierarchical structure stemming from both the difference between document level and speaker level annotation as well as nested stage paragraphs and the linguistic annotation with sentence annotation and named entity recognition represents a difference to the structure of GermaParl v1.

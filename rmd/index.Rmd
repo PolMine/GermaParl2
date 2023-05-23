@@ -1,0 +1,171 @@
+--- 
+title: "The GermaParl Corpus of Plenary Protocols (v2.0.0) - Documentation"
+author: "Andreas Blätte and Christoph Leonhardt"
+date: "`r sprintf('Version %s', Sys.Date())`"
+site: bookdown::bookdown_site
+biblio-style: apalike
+linestretch: 1.5
+documentclass: article
+bibliography: [buildinggermaparl.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This document is the in-depth documentation of the GermaParl v2 corpus. The corpus has been prepared in the PolMine Project (http://polmine.github.io).
+link-citations: yes
+# github-repo: xx/xx
+output:
+  bookdown::pdf_book: 
+    extra_dependencies: ["float"]
+  bookdown::gitbook:
+    split_bib: no
+header-includes: 
+- \usepackage{colortbl}
+- \usepackage{pdflscape}
+- \newcommand{\blandscape}{\begin{landscape}}
+- \newcommand{\elandscape}{\end{landscape}}
+---
+
+\newpage
+
+```{r link_or_footnote, echo = FALSE}
+link_or_footnote = function(text, url, date) {
+  if (knitr::is_latex_output()) {
+    
+    # if the word ends with a fullstop, it is assumed to be the end of the
+    # sentence. The footnote should start after the fullstop.
+    
+    if (grepl(".*\\.$", text)) {
+      text <- gsub("\\.$", "", text)
+      sprintf("%s.^[%s (last accessed on %s)]", text, url, date)
+    } else {
+      sprintf("%s^[%s (last accessed on %s)]", text, url, date)
+    }
+  } else {
+    sprintf("[%s](%s)", text, url)
+  }
+}
+
+# Update: This isn't really necessary, apparently:
+# https://bookdown.org/yihui/rmarkdown-cookbook/latex-preamble.html Keep this
+# here as this is a bit more flexible maybe?
+```
+
+```{r setup, echo = FALSE}
+knitr::opts_chunk$set(fig.pos = "H", out.extra = "")
+```
+
+# Summary{-}
+
+:::: {.blackbox data-latex=""}
+* Corpus Version: `r RcppCWB:::corpus_property("GERMAPARL2", property = "version")`
+* Documentation Date: `r Sys.Date()`
+* Cite corpus as: Blaette, Andreas, & Leonhardt, Christoph (2023). GermaParl Corpus of Plenary Protocols (v2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7949074.
+
+* Cite documentation as: Blaette, Andreas, & Leonhardt, Christoph (2023). The GermaParl Corpus of Plenary Protocols (v2.0.0) - Documentation. Version `r Sys.Date()`. https://polmine.github.io/BuildingGermaParl.
+::::
+
+\newpage
+
+# The GermaParl Corpus - An Overview{#overview}
+
+```{r libraries, echo = FALSE}
+library(polmineR)
+library(ggplot2)
+```
+
+The availability and quality of data is a crucial aspect of research. Available, high-quality data enables researchers to answer substantive research questions without the need to invest a large amount of time in the collection of data. As the study of parliamentary debates becomes more common and increasingly advanced, the need for quality data is also becoming apparent in this field.
+
+With GermaParl, the PolMine project strives to provide a  high-quality, multi-purpose and evolving resource for the research of German parliamentary debate, aiming to contribute to the rich dataverse of parliamentary corpora. The corpus follows established international resources such as DutchParl [@marx_dutchparl_2010] and EuroParl [@tiedemann-2012-parallel], two well-known resources which also served as a model for the name of the GermaParl corpus. The established version of GermaParl was developed by Andreas Blätte [-@blaette_andreas_2020_3742113] and was updated for this new release.
+
+Covering about 72 years of parliamentary debate and comprising of `r length(s_attributes("GERMAPARL2", "protocol"))` individual parliamentary sessions, GermaParl enables researchers to study the entire parliamentary discourse in the German *Bundestag* from 1949 to 2021. Containing `r round(size("GERMAPARL2")/1000000)` million tokens in total, the corpus is not only extensive in volume but also comprehensively annotated. Structural annotation layers facilitate the analysis of meaningful subsets of the corpus, allowing for comparisons between speakers, parties or legislative periods &mdash; to name just a few possibilities of synchronic and diachronic analyses. Linguistic annotation layers enable users of the data to create complex queries to treat text as linguistic data without the necessity to install additional NLP tools. With these features, we believe that GermaParl provides a useful contribution to the existing realm of prepared and machine-readable parliamentary data.^[In this regard, an overview of how GermaParl relates to other corpora of German parliamentary debates is also provided in @blaette_how_2022. For a "Review of available parliamentary corpora" in general, also see @sebok_opted_2021.]
+
+The remainder of this section provides a brief overview about the context in which GermaParl is developed and maintained as well as some additional introductory remarks about the resource. Other sections of this documentation contain an in-depth report of the data (Section \@ref(data-report)), a presentation of the data preparation workflow (section \@ref(corpus-preparation)) as well as some more technical and future aspects of corpus development.
+
+:::: {.blackbox data-latex=""}
+_Note:_ This documentation is provided as both a website and a pdf document (realized with the bookdown R package [@Yihui2016]). When referring to this documentation, please quote the pdf version as
+
+Blaette, Andreas, & Leonhardt, Christoph (2023). The GermaParl Corpus of Plenary Protocols (v2.0.0) - Documentation. Version `r Sys.Date()`. https://polmine.github.io/BuildingGermaParl.
+::::
+
+## GermaParl in the Context of the PolMine Project
+
+GermaParl is developed in the context of the `r link_or_footnote("PolMine project.", "https://polmine.github.io/", "2023-05-22")` The established version of the corpus which covers the years 1996 to 2016 has been described by @blatte_germaparl_2018. A beta version of GermaParl v2 was presented in @blaette_how_2022 in which broader aspects of the development philosophy of the resource were also discussed. In contrast, the documentation presented here provides an in-depth overview about existing attributes and shines a light on the more technical aspects of both the development and the structure of the resource.
+
+## Dissemination
+
+The data format of a resource often is a first criterion for its usability. Currently, the final corpus is disseminated in two formats. Firstly, the corpus is provided as **TEI/XML**. As a sustainable, interoperable format, the parliamentary corpus is provided as a structured XML format. For that, the raw, mainly unstructured text data downloaded as PDF, XML and TXT from the website of the `r link_or_footnote("German Bundestag", "https://www.bundestag.de/services/opendata", "2023-05-22")` is turned into an XML format inspired by the standards of the `r link_or_footnote("Text Encoding Initiative (TEI).", "https://tei-c.org/", "2023-05-22")` This process is facilitated by a reproducible workflow. The TEI/XML files structure the content of a protocol, providing information about speakers, parliamentary groups and what is said by which person in which session. The TEI/XML files are provided in the `r link_or_footnote("GermaParlTEI-Repository on GitHub.", "https://github.com/PolMine/GermaParlTEI", "2023-05-22")`
+
+The data is also provided in a linguistically annotated format which has been imported into the **Corpus Workbench** (CWB) [@evert_twenty-first_2011]. While the TEI/XML format can be used as an exchange format for more experienced users, a potentially more accessible format and thus an appropriate starting point for users which are not familiar with XML based pipelines is provided by the CWB version. This is also the version of the resource which includes additional linguistic annotation layers. When adding linguistic annotation to the structured text, some basic NLP tasks such as tokenization, Part-of-Speech-Tagging, lemmatization and Named Entity Recognition are performed. The linguistically annotated data is then indexed and imported into the Corpus Workbench. During this process, some additional harmonization steps are performed to further consolidate the names of parliamentary groups and parties in order to increase the usability of the CWB corpus. Dissemination of this version of the corpus is based on the distribution of the data in a compressed binary format, a so-called tarball, which is stored in the open online repository `r link_or_footnote("Zenodo.", "https://zenodo.org/record/7949074", "2023-05-22")` From there, it can be downloaded manually to be used, for example, in a compatible environment such as `r link_or_footnote("CQPweb", "https://cwb.sourceforge.io/cqpweb.php", "2023-05-22")` In the PolMine project, the analysis environment `polmineR` is developed [@polmineRPackage]. Implemented in the statistical programming language R, it provides a purpose-built solution for the analysis of large, CWB-indexed corpora. `polmineR` is designed to lower barriers for the analysis of large-scale, linguistically annotated corpora in a reproducible fashion. To further increase the ease of use, the corpora to be used with `polmineR` can be downloaded from within R using the package `cwbtools`. If not noted otherwise, the following descriptions refer to the CWB version of the corpus.
+
+While the PolMine project has some experience with the preparation and dissemination of corpora in these two output formats, new developments should be considered. In particular, an effort to standardize parliamentary data from different countries and languages is a promising avenue of development in the field. The **ParlaMint** corpora  [@erjavec_parlamint_2022] are a great showcase of the potential a shared encoding standard for parliamentary data can provide. As a `r link_or_footnote("specification of the Parla-CLARIN TEI standard,", "https://clarin-eric.github.io/ParlaMint/", "2023-05-22")` this specific XML output should be provided in the near future.
+
+## Installation - Using GermaParl with polmineR
+
+As mentioned earlier, it is possible to retrieve the corpus manually and use it like any other Corpus Workbench resource, for example via the CWB's own command line interface or graphical user interfaces like `r link_or_footnote("CQPweb.", "https://cwb.sourceforge.io/cqpweb.php", "2023-05-22")` As a central use case, GermaParl was designed to work with the `polmineR` R package. To reduce barriers, only three lines of R code are necessary to download and install the necessary packages to retrieve and work with the corpus.
+
+```{r eval = FALSE}
+install.packages("polmineR")
+install.packages("cwbtools")
+cwbtools::corpus_install(doi = "10.5281/zenodo.7949074")
+```
+
+## First steps and Digging Deeper{#getting-started}
+
+Making resources accessible is at the heart of the PolMine project. To this end, a number of training and teaching resources were developed within the project. In addition, valuable training material was created by other scholars of the community.
+
+The `r link_or_footnote('"UCSSR" (Using Corpora in Social Science Research)', "https://polmine.github.io/UCSSR", "2023-05-22")` series of online slides makes extensive use of GermaParl and introduces some analytic approaches to parliamentary debates. Thus, the slides are a great starting point to explore the data. They were designed in a way that facilitates the independent acquisition of skills and knowledge and aspire to be sufficiently thorough to serve as a point of reference for substantial analysis.
+
+### Video Tutorials for GermaParl
+
+`r link_or_footnote("Christoph Nguyen", "https://www.polsoz.fu-berlin.de/polwiss/forschung/systeme/polsystem/Team/Christoph-Nguyen.html", "2023-05-22")` has crafted video tutorials on the previous version of GermaParl available on YouTube for `r link_or_footnote("a class on Parliamentary Analysis", "https://github.com/cgnguyen/parlament_in_r", "2023-05-22")` in R. Four tutorials give a hands-on introduction to analyzing GermaParl in combination with the `polmineR` package.
+
+`r if (knitr::is_latex_output()) "The GitHub Repository provides a link a playlist containing, among others, the GermaParl specific video tutorials. <!--"`
+
+* [Introduction](https://youtu.be/dJJXYrcObw8)
+* [Data Structure](https://youtu.be/BAts-nQ9Jak)
+* [Descriptives](https://youtu.be/yVwrkwy9UqY)
+* ["Advanced" Methods](https://youtu.be/ySiYup9D3Vc)
+
+Click on the lessons to watch Christoph’s tutorials (in German)! 
+
+`r if (knitr::is_latex_output()) "-->"`
+
+It must be noted that the newest version of GermaParl comes with some specific design decisions that result in some differences in the internal structure of the corpus data. For details in this regard, please consult the `r link_or_footnote("release notes of GermaParl v2 Release Candidate 3", "https://polmine.github.io/posts/2023/04/03/GermaParl-v2-beta3-Release-Note.html", "2023-05-22")` for now. In consequence, the set of `polmineR` commands currently (`polmineR` version `r packageVersion("polmineR")`) is not entirely backwards compatible and thus not all commands shown in the videos will work for the new resource. For an in-depth explanation of the internal structure, see section \@ref(xml-structure) about "XML Structure".
+
+## License
+
+The license of the GermaParl corpus is the Creative Commons Attribution ShareAlike 4.0 License (CC BY-SA 4.0). That means:
+
+**BY** - Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+**SA** - ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+See the `r link_or_footnote("CC Attribution-ShareAlike 4.0 License", "https://creativecommons.org/licenses/by-sa/4.0/", "2023-05-22")` for further explanations.
+
+## Quotation
+
+To ensure the reproducibility of your research, it is important to refer to and specify the corpus (including version and DOI) you used.
+
+:::: {.blackbox data-latex=""}
+Blaette, Andreas, & Leonhardt, Christoph (2023). GermaParl Corpus of Plenary Protocols (v2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7949074.
+::::
+
+## Acknowledgements
+
+We gratefully acknowledge funding from the `r link_or_footnote("German National Research Data Infrastructure (Nationale Forschungsdateninfrastruktur / NFDI).", "https://www.nfdi.de/", "2023-05-22")` Funding from `r link_or_footnote("KonsortSWD", "https://www.konsortswd.de/", "2023-05-22")` has advanced the data preparation tool set to facilitate the robust annotation of additional annotation layers in large corpora (such as Named Entities). This is instrumental for linking parliamentary data with other data. Funding from the `r link_or_footnote("Text+", "https://www.text-plus.org/", "2023-05-22")` consortium is instrumental for updates of the corpus, quality control and keeping data formats up with current and future developments.
+
+The data quality of GermaParl we are able to offer at this stage has benefitted significantly from a cooperation with the SOLDISK project at the University of Hildesheim, and comprehensive manual quality control of the data carried out by the SOLDISK team. A very special thanks goes to Hannes Schammann, Max Kisselew, Franziska Ziegler, Carina Böker, Jennifer Elsner and Carolin McCrea.
+
+## Quality Control and Issue Tracking
+
+While we provide a thoroughly checked language resource which has undergone a number of iterations and a closed beta phase, the possibility of remaining errors and flaws in the data cannot be discarded. We conceptualized GermaParl as an evolving resource, meaning that the preparation pipeline is designed in a way that allows for the incorporation of user feedback and feature requests. The most effective way to collect feedback is to use `r link_or_footnote("GitHub Issues.", "https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue", "2023-05-22")`
+
+The TEI/XML version of the corpus is stored on GitHub. As these files also provide the basis for the CWB corpus, the respective repository is the natural location to collect feedback. The repository can be found here: https://github.com/PolMine/GermaParlTEI.
+
+## Structure of this Documentation
+
+The new version of GermaParl is not only a temporal update of the established corpus. While it shares a lot of qualities of the previous version, some processing steps are fine-tuned, certain attributes are updated and a number of additional features is provided. The purpose of the remainder of this documentation is thus threefold: 
+
+* the corpus is comprehensively annotated which yields great potential for developing precise and deliberate individual workflows for analysis. To facilitate this, the data is structured in a specific data format and provided in a way which might seem less familiar than, for example, a data frame representation. Therefore, central features of the resource in general and its data format in particular should be presented in some depth (Section \@ref(data-report)).
+* GermaParl should be understood as an evolving resource [@blaette_how_2022]. Consequentially, the data preparation process is made transparent to allow for feedback being effectively incorporated into new versions of the corpus and to increase the trustworthiness of the data (Section \@ref(corpus-preparation)).
+* the data should be accessible not only in terms of availability but also with regards to its usability. In consequence, information about how to get started is provided (see section \@ref(getting-started) and the code examples in the data report in section \@ref(data-report)).

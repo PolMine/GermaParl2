@@ -1,0 +1,17 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s
+    download: ["pdf"]
+bookdown::pdf_book:
+  extra_dependencies: ["float"]
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
