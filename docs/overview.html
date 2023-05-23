@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>1 The GermaParl Corpus - An Overview | The GermaParl Corpus of Plenary Protocols (v2.0.0) - Documentation</title>
+  <meta name="description" content="This document is the in-depth documentation of the GermaParl v2 corpus. The corpus has been prepared in the PolMine Project (http://polmine.github.io)." />
+  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="1 The GermaParl Corpus - An Overview | The GermaParl Corpus of Plenary Protocols (v2.0.0) - Documentation" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="This document is the in-depth documentation of the GermaParl v2 corpus. The corpus has been prepared in the PolMine Project (http://polmine.github.io)." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="1 The GermaParl Corpus - An Overview | The GermaParl Corpus of Plenary Protocols (v2.0.0) - Documentation" />
+  
+  <meta name="twitter:description" content="This document is the in-depth documentation of the GermaParl v2 corpus. The corpus has been prepared in the PolMine Project (http://polmine.github.io)." />
+  
+
+<meta name="author" content="Andreas Blätte and Christoph Leonhardt" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="data-report.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<script src="libs/htmlwidgets-1.6.1/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.27/datatables.js"></script>
+<link href="libs/dt-core-1.12.1/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.12.1/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.12.1/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Summary</a></li>
+<li class="chapter" data-level="1" data-path="overview.html"><a href="overview.html"><i class="fa fa-check"></i><b>1</b> The GermaParl Corpus - An Overview</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="overview.html"><a href="overview.html#germaparl-in-the-context-of-the-polmine-project"><i class="fa fa-check"></i><b>1.1</b> GermaParl in the Context of the PolMine Project</a></li>
+<li class="chapter" data-level="1.2" data-path="overview.html"><a href="overview.html#dissemination"><i class="fa fa-check"></i><b>1.2</b> Dissemination</a></li>
+<li class="chapter" data-level="1.3" data-path="overview.html"><a href="overview.html#installation---using-germaparl-with-polminer"><i class="fa fa-check"></i><b>1.3</b> Installation - Using GermaParl with polmineR</a></li>
+<li class="chapter" data-level="1.4" data-path="overview.html"><a href="overview.html#getting-started"><i class="fa fa-check"></i><b>1.4</b> First steps and Digging Deeper</a>
+<ul>
+<li class="chapter" data-level="1.4.1" data-path="overview.html"><a href="overview.html#video-tutorials-for-germaparl"><i class="fa fa-check"></i><b>1.4.1</b> Video Tutorials for GermaParl</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="overview.html"><a href="overview.html#license"><i class="fa fa-check"></i><b>1.5</b> License</a></li>
+<li class="chapter" data-level="1.6" data-path="overview.html"><a href="overview.html#quotation"><i class="fa fa-check"></i><b>1.6</b> Quotation</a></li>
+<li class="chapter" data-level="1.7" data-path="overview.html"><a href="overview.html#acknowledgements"><i class="fa fa-check"></i><b>1.7</b> Acknowledgements</a></li>
+<li class="chapter" data-level="1.8" data-path="overview.html"><a href="overview.html#quality-control-and-issue-tracking"><i class="fa fa-check"></i><b>1.8</b> Quality Control and Issue Tracking</a></li>
+<li class="chapter" data-level="1.9" data-path="overview.html"><a href="overview.html#structure-of-this-documentation"><i class="fa fa-check"></i><b>1.9</b> Structure of this Documentation</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="data-report.html"><a href="data-report.html"><i class="fa fa-check"></i><b>2</b> Data Report - Linguistic and Structural Annotation</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="data-report.html"><a href="data-report.html#linguistic-annotation"><i class="fa fa-check"></i><b>2.1</b> Linguistic Annotation</a></li>
+<li class="chapter" data-level="2.2" data-path="data-report.html"><a href="data-report.html#structural-annotation"><i class="fa fa-check"></i><b>2.2</b> Structural Annotation</a>
+<ul>
+<li class="chapter" data-level="" data-path="data-report.html"><a href="data-report.html#speeches"><i class="fa fa-check"></i>Speeches</a></li>
+<li class="chapter" data-level="" data-path="data-report.html"><a href="data-report.html#size-and-time"><i class="fa fa-check"></i>Size and Time</a></li>
+<li class="chapter" data-level="" data-path="data-report.html"><a href="data-report.html#parliamentary-group"><i class="fa fa-check"></i>Parliamentary Group</a></li>
+<li class="chapter" data-level="" data-path="data-report.html"><a href="data-report.html#party"><i class="fa fa-check"></i>Party</a></li>
+<li class="chapter" data-level="" data-path="data-report.html"><a href="data-report.html#role"><i class="fa fa-check"></i>Role</a></li>
+<li class="chapter" data-level="" data-path="data-report.html"><a href="data-report.html#speaker"><i class="fa fa-check"></i>Speaker</a></li>
+<li class="chapter" data-level="" data-path="data-report.html"><a href="data-report.html#paragraphs-and-sentences"><i class="fa fa-check"></i>Paragraphs and Sentences</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="corpus-preparation.html"><a href="corpus-preparation.html"><i class="fa fa-check"></i><b>3</b> Corpus Preparation</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="corpus-preparation.html"><a href="corpus-preparation.html#data-collection"><i class="fa fa-check"></i><b>3.1</b> Data Collection</a></li>
+<li class="chapter" data-level="3.2" data-path="corpus-preparation.html"><a href="corpus-preparation.html#preprocessing"><i class="fa fa-check"></i><b>3.2</b> Preprocessing</a></li>
+<li class="chapter" data-level="3.3" data-path="corpus-preparation.html"><a href="corpus-preparation.html#xmlification"><i class="fa fa-check"></i><b>3.3</b> XMLification</a></li>
+<li class="chapter" data-level="3.4" data-path="corpus-preparation.html"><a href="corpus-preparation.html#consolidation"><i class="fa fa-check"></i><b>3.4</b> Consolidation</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="corpus-preparation.html"><a href="corpus-preparation.html#external-data-sources"><i class="fa fa-check"></i><b>3.4.1</b> External Data Sources</a></li>
+<li class="chapter" data-level="3.4.2" data-path="corpus-preparation.html"><a href="corpus-preparation.html#matching-speaker-nodes-and-external-data"><i class="fa fa-check"></i><b>3.4.2</b> Matching Speaker Nodes and External Data</a></li>
+<li class="chapter" data-level="3.4.3" data-path="corpus-preparation.html"><a href="corpus-preparation.html#additional-remarks-concerning-the-enhancement-of-speakers"><i class="fa fa-check"></i><b>3.4.3</b> Additional Remarks concerning the enhancement of speakers</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="corpus-preparation.html"><a href="corpus-preparation.html#nineteenth-lp"><i class="fa fa-check"></i><b>3.5</b> The 19<sup>th</sup> Legislative Period as a Special Case</a></li>
+<li class="chapter" data-level="3.6" data-path="corpus-preparation.html"><a href="corpus-preparation.html#linguistic-annotation-1"><i class="fa fa-check"></i><b>3.6</b> Linguistic Annotation</a></li>
+<li class="chapter" data-level="3.7" data-path="corpus-preparation.html"><a href="corpus-preparation.html#cwbification"><i class="fa fa-check"></i><b>3.7</b> CWBification</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="xml-structure.html"><a href="xml-structure.html"><i class="fa fa-check"></i><b>4</b> XML Structure</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="xml-structure.html"><a href="xml-structure.html#tei-header"><i class="fa fa-check"></i><b>4.1</b> TEI-Header</a></li>
+<li class="chapter" data-level="4.2" data-path="xml-structure.html"><a href="xml-structure.html#tei-text"><i class="fa fa-check"></i><b>4.2</b> TEI-Text</a></li>
+<li class="chapter" data-level="4.3" data-path="xml-structure.html"><a href="xml-structure.html#xml-in-the-cwb-corpus"><i class="fa fa-check"></i><b>4.3</b> XML in the CWB corpus</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="data-resources.html"><a href="data-resources.html"><i class="fa fa-check"></i><b>5</b> Data and Resources, Tools and Packages</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="data-resources.html"><a href="data-resources.html#data"><i class="fa fa-check"></i><b>5.1</b> Data</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="data-resources.html"><a href="data-resources.html#protocols"><i class="fa fa-check"></i><b>5.1.1</b> Protocols</a></li>
+<li class="chapter" data-level="5.1.2" data-path="data-resources.html"><a href="data-resources.html#external-data"><i class="fa fa-check"></i><b>5.1.2</b> External Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="data-resources.html"><a href="data-resources.html#tools"><i class="fa fa-check"></i><b>5.2</b> Tools</a>
+<ul>
+<li class="chapter" data-level="" data-path="data-resources.html"><a href="data-resources.html#stanford-corenlp"><i class="fa fa-check"></i>Stanford CoreNLP</a></li>
+<li class="chapter" data-level="" data-path="data-resources.html"><a href="data-resources.html#treetagger"><i class="fa fa-check"></i>TreeTagger</a></li>
+<li class="chapter" data-level="" data-path="data-resources.html"><a href="data-resources.html#corpus-workbench"><i class="fa fa-check"></i>Corpus Workbench</a></li>
+<li class="chapter" data-level="" data-path="data-resources.html"><a href="data-resources.html#additional-r-packages"><i class="fa fa-check"></i>Additional R Packages</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>6</b> References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">The GermaParl Corpus of Plenary Protocols (v2.0.0) - Documentation</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="overview" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">1</span> The GermaParl Corpus - An Overview<a href="overview.html#overview" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>The availability and quality of data is a crucial aspect of research. Available, high-quality data enables researchers to answer substantive research questions without the need to invest a large amount of time in the collection of data. As the study of parliamentary debates becomes more common and increasingly advanced, the need for quality data is also becoming apparent in this field.</p>
+<p>With GermaParl, the PolMine project strives to provide a high-quality, multi-purpose and evolving resource for the research of German parliamentary debate, aiming to contribute to the rich dataverse of parliamentary corpora. The corpus follows established international resources such as DutchParl <span class="citation">(<a href="references.html#ref-marx_dutchparl_2010" role="doc-biblioref">Marx and Schuth 2010</a>)</span> and EuroParl <span class="citation">(<a href="references.html#ref-tiedemann-2012-parallel" role="doc-biblioref">Tiedemann 2012</a>)</span>, two well-known resources which also served as a model for the name of the GermaParl corpus. The established version of GermaParl was developed by Andreas Blätte <span class="citation">(<a href="references.html#ref-blaette_andreas_2020_3742113" role="doc-biblioref">2020</a>)</span> and was updated for this new release.</p>
+<p>Covering about 72 years of parliamentary debate and comprising of 4341 individual parliamentary sessions, GermaParl enables researchers to study the entire parliamentary discourse in the German <em>Bundestag</em> from 1949 to 2021. Containing 274 million tokens in total, the corpus is not only extensive in volume but also comprehensively annotated. Structural annotation layers facilitate the analysis of meaningful subsets of the corpus, allowing for comparisons between speakers, parties or legislative periods — to name just a few possibilities of synchronic and diachronic analyses. Linguistic annotation layers enable users of the data to create complex queries to treat text as linguistic data without the necessity to install additional NLP tools. With these features, we believe that GermaParl provides a useful contribution to the existing realm of prepared and machine-readable parliamentary data.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<p>The remainder of this section provides a brief overview about the context in which GermaParl is developed and maintained as well as some additional introductory remarks about the resource. Other sections of this documentation contain an in-depth report of the data (Section <a href="data-report.html#data-report">2</a>), a presentation of the data preparation workflow (section <a href="corpus-preparation.html#corpus-preparation">3</a>) as well as some more technical and future aspects of corpus development.</p>
+<div class="blackbox">
+<p><em>Note:</em> This documentation is provided as both a website and a pdf document (realized with the bookdown R package <span class="citation">(<a href="references.html#ref-Yihui2016" role="doc-biblioref">Xie 2016</a>)</span>). When referring to this documentation, please quote the pdf version as</p>
+<p>Blaette, Andreas, &amp; Leonhardt, Christoph (2023). The GermaParl Corpus of Plenary Protocols (v2.0.0) - Documentation. Version 2023-05-23. <a href="https://polmine.github.io/BuildingGermaParl" class="uri">https://polmine.github.io/BuildingGermaParl</a>.</p>
+</div>
+<div id="germaparl-in-the-context-of-the-polmine-project" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> GermaParl in the Context of the PolMine Project<a href="overview.html#germaparl-in-the-context-of-the-polmine-project" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>GermaParl is developed in the context of the <a href="https://polmine.github.io/">PolMine project.</a> The established version of the corpus which covers the years 1996 to 2016 has been described by <span class="citation">Blätte and Blessing (<a href="references.html#ref-blatte_germaparl_2018" role="doc-biblioref">2018</a>)</span>. A beta version of GermaParl v2 was presented in <span class="citation">Blätte, Rakers, and Leonhardt (<a href="references.html#ref-blaette_how_2022" role="doc-biblioref">2022</a>)</span> in which broader aspects of the development philosophy of the resource were also discussed. In contrast, the documentation presented here provides an in-depth overview about existing attributes and shines a light on the more technical aspects of both the development and the structure of the resource.</p>
+</div>
+<div id="dissemination" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> Dissemination<a href="overview.html#dissemination" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The data format of a resource often is a first criterion for its usability. Currently, the final corpus is disseminated in two formats. Firstly, the corpus is provided as <strong>TEI/XML</strong>. As a sustainable, interoperable format, the parliamentary corpus is provided as a structured XML format. For that, the raw, mainly unstructured text data downloaded as PDF, XML and TXT from the website of the <a href="https://www.bundestag.de/services/opendata">German Bundestag</a> is turned into an XML format inspired by the standards of the <a href="https://tei-c.org/">Text Encoding Initiative (TEI).</a> This process is facilitated by a reproducible workflow. The TEI/XML files structure the content of a protocol, providing information about speakers, parliamentary groups and what is said by which person in which session. The TEI/XML files are provided in the <a href="https://github.com/PolMine/GermaParlTEI">GermaParlTEI-Repository on GitHub.</a></p>
+<p>The data is also provided in a linguistically annotated format which has been imported into the <strong>Corpus Workbench</strong> (CWB) <span class="citation">(<a href="references.html#ref-evert_twenty-first_2011" role="doc-biblioref">Evert and Hardie 2011</a>)</span>. While the TEI/XML format can be used as an exchange format for more experienced users, a potentially more accessible format and thus an appropriate starting point for users which are not familiar with XML based pipelines is provided by the CWB version. This is also the version of the resource which includes additional linguistic annotation layers. When adding linguistic annotation to the structured text, some basic NLP tasks such as tokenization, Part-of-Speech-Tagging, lemmatization and Named Entity Recognition are performed. The linguistically annotated data is then indexed and imported into the Corpus Workbench. During this process, some additional harmonization steps are performed to further consolidate the names of parliamentary groups and parties in order to increase the usability of the CWB corpus. Dissemination of this version of the corpus is based on the distribution of the data in a compressed binary format, a so-called tarball, which is stored in the open online repository <a href="https://zenodo.org/record/7949074">Zenodo.</a> From there, it can be downloaded manually to be used, for example, in a compatible environment such as <a href="https://cwb.sourceforge.io/cqpweb.php">CQPweb</a> In the PolMine project, the analysis environment <code>polmineR</code> is developed <span class="citation">(<a href="references.html#ref-polmineRPackage" role="doc-biblioref">Blätte 2022b</a>)</span>. Implemented in the statistical programming language R, it provides a purpose-built solution for the analysis of large, CWB-indexed corpora. <code>polmineR</code> is designed to lower barriers for the analysis of large-scale, linguistically annotated corpora in a reproducible fashion. To further increase the ease of use, the corpora to be used with <code>polmineR</code> can be downloaded from within R using the package <code>cwbtools</code>. If not noted otherwise, the following descriptions refer to the CWB version of the corpus.</p>
+<p>While the PolMine project has some experience with the preparation and dissemination of corpora in these two output formats, new developments should be considered. In particular, an effort to standardize parliamentary data from different countries and languages is a promising avenue of development in the field. The <strong>ParlaMint</strong> corpora <span class="citation">(<a href="references.html#ref-erjavec_parlamint_2022" role="doc-biblioref">Erjavec et al. 2022</a>)</span> are a great showcase of the potential a shared encoding standard for parliamentary data can provide. As a <a href="https://clarin-eric.github.io/ParlaMint/">specification of the Parla-CLARIN TEI standard,</a> this specific XML output should be provided in the near future.</p>
+</div>
+<div id="installation---using-germaparl-with-polminer" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> Installation - Using GermaParl with polmineR<a href="overview.html#installation---using-germaparl-with-polminer" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>As mentioned earlier, it is possible to retrieve the corpus manually and use it like any other Corpus Workbench resource, for example via the CWB’s own command line interface or graphical user interfaces like <a href="https://cwb.sourceforge.io/cqpweb.php">CQPweb.</a> As a central use case, GermaParl was designed to work with the <code>polmineR</code> R package. To reduce barriers, only three lines of R code are necessary to download and install the necessary packages to retrieve and work with the corpus.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="overview.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;polmineR&quot;</span>)</span>
+<span id="cb1-2"><a href="overview.html#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;cwbtools&quot;</span>)</span>
+<span id="cb1-3"><a href="overview.html#cb1-3" aria-hidden="true" tabindex="-1"></a>cwbtools<span class="sc">::</span><span class="fu">corpus_install</span>(<span class="at">doi =</span> <span class="st">&quot;10.5281/zenodo.7949074&quot;</span>)</span></code></pre></div>
+</div>
+<div id="getting-started" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> First steps and Digging Deeper<a href="overview.html#getting-started" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Making resources accessible is at the heart of the PolMine project. To this end, a number of training and teaching resources were developed within the project. In addition, valuable training material was created by other scholars of the community.</p>
+<p>The <a href="https://polmine.github.io/UCSSR">“UCSSR” (Using Corpora in Social Science Research)</a> series of online slides makes extensive use of GermaParl and introduces some analytic approaches to parliamentary debates. Thus, the slides are a great starting point to explore the data. They were designed in a way that facilitates the independent acquisition of skills and knowledge and aspire to be sufficiently thorough to serve as a point of reference for substantial analysis.</p>
+<div id="video-tutorials-for-germaparl" class="section level3 hasAnchor" number="1.4.1">
+<h3><span class="header-section-number">1.4.1</span> Video Tutorials for GermaParl<a href="overview.html#video-tutorials-for-germaparl" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><a href="https://www.polsoz.fu-berlin.de/polwiss/forschung/systeme/polsystem/Team/Christoph-Nguyen.html">Christoph Nguyen</a> has crafted video tutorials on the previous version of GermaParl available on YouTube for <a href="https://github.com/cgnguyen/parlament_in_r">a class on Parliamentary Analysis</a> in R. Four tutorials give a hands-on introduction to analyzing GermaParl in combination with the <code>polmineR</code> package.</p>
+<ul>
+<li><a href="https://youtu.be/dJJXYrcObw8">Introduction</a></li>
+<li><a href="https://youtu.be/BAts-nQ9Jak">Data Structure</a></li>
+<li><a href="https://youtu.be/yVwrkwy9UqY">Descriptives</a></li>
+<li><a href="https://youtu.be/ySiYup9D3Vc">“Advanced” Methods</a></li>
+</ul>
+<p>Click on the lessons to watch Christoph’s tutorials (in German)!</p>
+<p>It must be noted that the newest version of GermaParl comes with some specific design decisions that result in some differences in the internal structure of the corpus data. For details in this regard, please consult the <a href="https://polmine.github.io/posts/2023/04/03/GermaParl-v2-beta3-Release-Note.html">release notes of GermaParl v2 Release Candidate 3</a> for now. In consequence, the set of <code>polmineR</code> commands currently (<code>polmineR</code> version 0.8.8.9010) is not entirely backwards compatible and thus not all commands shown in the videos will work for the new resource. For an in-depth explanation of the internal structure, see section <a href="xml-structure.html#xml-structure">4</a> about “XML Structure”.</p>
+</div>
+</div>
+<div id="license" class="section level2 hasAnchor" number="1.5">
+<h2><span class="header-section-number">1.5</span> License<a href="overview.html#license" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The license of the GermaParl corpus is the Creative Commons Attribution ShareAlike 4.0 License (CC BY-SA 4.0). That means:</p>
+<p><strong>BY</strong> - Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</p>
+<p><strong>SA</strong> - ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</p>
+<p>See the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC Attribution-ShareAlike 4.0 License</a> for further explanations.</p>
+</div>
+<div id="quotation" class="section level2 hasAnchor" number="1.6">
+<h2><span class="header-section-number">1.6</span> Quotation<a href="overview.html#quotation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>To ensure the reproducibility of your research, it is important to refer to and specify the corpus (including version and DOI) you used.</p>
+<div class="blackbox">
+<p>Blaette, Andreas, &amp; Leonhardt, Christoph (2023). GermaParl Corpus of Plenary Protocols (v2.0.0) [Data set]. Zenodo. <a href="https://doi.org/10.5281/zenodo.7949074" class="uri">https://doi.org/10.5281/zenodo.7949074</a>.</p>
+</div>
+</div>
+<div id="acknowledgements" class="section level2 hasAnchor" number="1.7">
+<h2><span class="header-section-number">1.7</span> Acknowledgements<a href="overview.html#acknowledgements" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>We gratefully acknowledge funding from the <a href="https://www.nfdi.de/">German National Research Data Infrastructure (Nationale Forschungsdateninfrastruktur / NFDI).</a> Funding from <a href="https://www.konsortswd.de/">KonsortSWD</a> has advanced the data preparation tool set to facilitate the robust annotation of additional annotation layers in large corpora (such as Named Entities). This is instrumental for linking parliamentary data with other data. Funding from the <a href="https://www.text-plus.org/">Text+</a> consortium is instrumental for updates of the corpus, quality control and keeping data formats up with current and future developments.</p>
+<p>The data quality of GermaParl we are able to offer at this stage has benefitted significantly from a cooperation with the SOLDISK project at the University of Hildesheim, and comprehensive manual quality control of the data carried out by the SOLDISK team. A very special thanks goes to Hannes Schammann, Max Kisselew, Franziska Ziegler, Carina Böker, Jennifer Elsner and Carolin McCrea.</p>
+</div>
+<div id="quality-control-and-issue-tracking" class="section level2 hasAnchor" number="1.8">
+<h2><span class="header-section-number">1.8</span> Quality Control and Issue Tracking<a href="overview.html#quality-control-and-issue-tracking" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>While we provide a thoroughly checked language resource which has undergone a number of iterations and a closed beta phase, the possibility of remaining errors and flaws in the data cannot be discarded. We conceptualized GermaParl as an evolving resource, meaning that the preparation pipeline is designed in a way that allows for the incorporation of user feedback and feature requests. The most effective way to collect feedback is to use <a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue">GitHub Issues.</a></p>
+<p>The TEI/XML version of the corpus is stored on GitHub. As these files also provide the basis for the CWB corpus, the respective repository is the natural location to collect feedback. The repository can be found here: <a href="https://github.com/PolMine/GermaParlTEI" class="uri">https://github.com/PolMine/GermaParlTEI</a>.</p>
+</div>
+<div id="structure-of-this-documentation" class="section level2 hasAnchor" number="1.9">
+<h2><span class="header-section-number">1.9</span> Structure of this Documentation<a href="overview.html#structure-of-this-documentation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The new version of GermaParl is not only a temporal update of the established corpus. While it shares a lot of qualities of the previous version, some processing steps are fine-tuned, certain attributes are updated and a number of additional features is provided. The purpose of the remainder of this documentation is thus threefold:</p>
+<ul>
+<li>the corpus is comprehensively annotated which yields great potential for developing precise and deliberate individual workflows for analysis. To facilitate this, the data is structured in a specific data format and provided in a way which might seem less familiar than, for example, a data frame representation. Therefore, central features of the resource in general and its data format in particular should be presented in some depth (Section <a href="data-report.html#data-report">2</a>).</li>
+<li>GermaParl should be understood as an evolving resource <span class="citation">(<a href="references.html#ref-blaette_how_2022" role="doc-biblioref">Blätte, Rakers, and Leonhardt 2022</a>)</span>. Consequentially, the data preparation process is made transparent to allow for feedback being effectively incorporated into new versions of the corpus and to increase the trustworthiness of the data (Section <a href="corpus-preparation.html#corpus-preparation">3</a>).</li>
+<li>the data should be accessible not only in terms of availability but also with regards to its usability. In consequence, information about how to get started is provided (see section <a href="overview.html#getting-started">1.4</a> and the code examples in the data report in section <a href="data-report.html#data-report">2</a>).</li>
+</ul>
+
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>In this regard, an overview of how GermaParl relates to other corpora of German parliamentary debates is also provided in <span class="citation">Blätte, Rakers, and Leonhardt (<a href="references.html#ref-blaette_how_2022" role="doc-biblioref">2022</a>)</span>. For a “Review of available parliamentary corpora” in general, also see <span class="citation">Sebők, Proksch, and Rauh (<a href="references.html#ref-sebok_opted_2021" role="doc-biblioref">2021</a>)</span>.<a href="overview.html#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-report.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/index.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["Blaette_Leonhardt_2023_GermaParl_v2_Documentation.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
