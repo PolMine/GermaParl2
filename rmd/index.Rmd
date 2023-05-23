@@ -61,7 +61,7 @@ knitr::opts_chunk$set(fig.pos = "H", out.extra = "")
 * Documentation Date: `r Sys.Date()`
 * Cite corpus as: Blaette, Andreas, & Leonhardt, Christoph (2023). GermaParl Corpus of Plenary Protocols (v2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7949074.
 
-* Cite documentation as: Blaette, Andreas, & Leonhardt, Christoph (2023). The GermaParl Corpus of Plenary Protocols (v2.0.0) - Documentation. Version `r Sys.Date()`. https://polmine.github.io/BuildingGermaParl.
+* Cite documentation as: Blaette, Andreas, & Leonhardt, Christoph (2023). The GermaParl Corpus of Plenary Protocols (v2.0.0) - Documentation. Version `r Sys.Date()`. https://polmine.github.io/GermaParl2
 ::::
 
 \newpage
@@ -84,7 +84,7 @@ The remainder of this section provides a brief overview about the context in whi
 :::: {.blackbox data-latex=""}
 _Note:_ This documentation is provided as both a website and a pdf document (realized with the bookdown R package [@Yihui2016]). When referring to this documentation, please quote the pdf version as
 
-Blaette, Andreas, & Leonhardt, Christoph (2023). The GermaParl Corpus of Plenary Protocols (v2.0.0) - Documentation. Version `r Sys.Date()`. https://polmine.github.io/BuildingGermaParl.
+Blaette, Andreas, & Leonhardt, Christoph (2023). The GermaParl Corpus of Plenary Protocols (v2.0.0) - Documentation. Version `r Sys.Date()`. https://polmine.github.io/GermaParl2
 ::::
 
 ## GermaParl in the Context of the PolMine Project
@@ -160,7 +160,7 @@ The data quality of GermaParl we are able to offer at this stage has benefitted 
 
 While we provide a thoroughly checked language resource which has undergone a number of iterations and a closed beta phase, the possibility of remaining errors and flaws in the data cannot be discarded. We conceptualized GermaParl as an evolving resource, meaning that the preparation pipeline is designed in a way that allows for the incorporation of user feedback and feature requests. The most effective way to collect feedback is to use `r link_or_footnote("GitHub Issues.", "https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue", "2023-05-22")`
 
-The TEI/XML version of the corpus is stored on GitHub. As these files also provide the basis for the CWB corpus, the respective repository is the natural location to collect feedback. The repository can be found here: https://github.com/PolMine/GermaParlTEI.
+The documentation of the corpus is stored on GitHub. We use the same location to collect feedback. The repository can be found here: https://github.com/PolMine/GermaParl2.
 
 ## Structure of this Documentation
 
