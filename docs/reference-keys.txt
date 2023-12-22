@@ -18,6 +18,7 @@ dissemination
 installation---using-germaparl-with-polminer
 getting-started
 video-tutorials-for-germaparl
+cookin-with-germaparl-webinar-series
 license
 quotation
 acknowledgements
@@ -33,6 +34,7 @@ xmlification
 consolidation
 external-data-sources
 matching-speaker-nodes-and-external-data
+agenda-item
 additional-remarks-concerning-the-enhancement-of-speakers
 nineteenth-lp
 linguistic-annotation-1

@@ -10,7 +10,8 @@ library(kableExtra)
 
 ```{r data_report_start, echo = FALSE}
 target <- "GERMAPARL2"
-corpus_version <- RcppCWB::corpus_property(corpus = target, property = "version")
+corpus_version <- RcppCWB::corpus_property(corpus = target,
+                                           property = "version")
 ```
 
 In the CWB version of the corpus, the data is both linguistically and structurally annotated. Using the language of the CWB, most linguistic annotation layers are provided in the form of *positional attributes* on token level. Aside from a tokens's surface form (the word itself), these might include Part-of-Speech tags or lemmata and can be used to formulate complex queries. In contrast, *structural attributes* describe regions of the corpus characterized by a set of metadata such as a date, a specific speaker or a combination of different attributes. Structural attributes resemble variables one can use to conduct a targeted analysis of the textual data.^[The CWB corpus data model is described in more detail by Stephanie Evert and the CWB Development Team  in the corresponding online documentation of the Corpus Workbench (https://cwb.sourceforge.io/documentation.php, last accessed on 2023-01-04). See in particular https://cwb.sourceforge.io/files/CQP_Manual/1_2.html (last accessed on 2023-01-04).]
@@ -25,7 +26,7 @@ GermaParl is linguistically annotated. Aside from tokenization, the data was lem
 pAttrsList <- list(
   c("word", "the word as it occurs in text", "word"),
   c("upos", 'the part-of-speech-tag of the word according to the Universal Dependencies Tagset', 'for example NOUN or CONJ'),
-    c("xpos", 'the part-of-speech-tag of the word according to the Stuttgart-Tübingen Tagset¹', "for example ADJA, NN, VVINF"),
+  c("xpos", 'the part-of-speech-tag of the word according to the Stuttgart-Tübingen Tagset¹', "for example ADJA, NN, VVINF"),
   c("lemma", "the lemmatized form of the word", "lemma")
 )
 
@@ -37,7 +38,7 @@ colnames(tab_p) <- c("p-attribute", "description", "values")
                booktabs = TRUE, 
                escape = TRUE, 
                caption = "The description of positional attributes in the GermaParl Corpus") %>% 
-    kableExtra::footnote(number = "http://www.sfs.uni-tuebingen.de/Elwis/stts/stts.html") %>%
+    kableExtra::footnote(number = "see for example the overview provided here: https://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/germantagsets/ (2023-12-22)") %>%
     column_spec(2, width = "6cm") %>%
     column_spec(3, width = "3cm")
 ```
@@ -70,11 +71,7 @@ kwic("GERMAPARL2",
 
 For an in-depth introduction into the CQP query language used here, please consult either the aforementioned UCSSR teaching materials or the `r link_or_footnote("CQP manual", "https://cwb.sourceforge.io/files/CQP_Manual/", "2023-05-22")` by Stephanie Evert and the CWB Development Team.
 
-While also part of the linguistic annotation, Named Entities are not added as positional attributes. They can span multiple tokens and are encoded as structural attributes which are discussed later. As linguistic annotation, the named entities annotation distinguishes between the four classes "*LOCATION*", "*ORGANIZATION*", "*PERSON*" and "*MISC*". These are added and addressed as the structural attribute **ne_type**.
-
-:::: {.redbox data-latex=""}
-_ATTENTION:_ The functionality of querying named entities is not entirely documented in the current version of `polmineR`. There are multiple ways to address this annotation layer. The following code chunk shows one way to perform a CQP query on a structural attribute.
-::::
+While also part of the linguistic annotation, **Named Entities** are not added as positional attributes. They can span multiple tokens and are encoded as structural attributes which are discussed later. As linguistic annotation, the named entities annotation distinguishes between the four classes "*LOCATION*", "*ORGANIZATION*", "*PERSON*" and "*MISC*". These are added and addressed as the structural attribute **ne_type**. The following code chunk chows one way to perform a CQP query using a structural attribute.
 
 ```{r ner_example, echo = TRUE, eval = FALSE}
 corpus("GERMAPARL2") |>
@@ -86,7 +83,7 @@ corpus("GERMAPARL2") |>
 
 ## Structural Annotation
 
-Different regions of the corpus are characterized by different metadata. This structural annotation comprises of different attributes which are either on the document level (temporal information such  as date, year or legislative period as well as the session number) or on the level of utterances by different speakers (speaker name, party affiliation, parliamentary group affiliation, speaker role). Importantly it is also annotated whether a region refers to a ordinary speech or is an interjection of another speaker or another non-vocal contribution. In table  \@ref(tab:annotation-s-attributes) the structural attributes of the GermaParl corpus are described in the way they are encoded in the CWB version of the corpus.
+Different regions of the corpus are characterized by different metadata. This structural annotation comprises of different attributes which are either on the document level (temporal information such as date, year or legislative period as well as the session number), on the level of utterances made by different speakers (speaker name, party affiliation, parliamentary group affiliation, speaker role) or below the utterance level like the annotation of sentences or paragraphs. Importantly it is also annotated whether a region refers to a ordinary speech or is an interjection of another speaker or another non-vocal contribution. In table  \@ref(tab:annotation-s-attributes) the structural attributes of the GermaParl corpus are described in the way they are encoded in the CWB version of the corpus.
 
 ```{r annotation-s-attributes, echo = FALSE, message = FALSE, warning = FALSE}
 sAttrsList <- list(
@@ -125,8 +122,8 @@ knitr::kable(tab,
 
 In the following, further attributes of the corpus are described briefly.
 
-### Speeches{-}
 
+### Speeches{-}
 
 Addressing an obvious omission first, the current version of GermaParl does not provide a structural attribute for individual speeches. The definition of a speech might not be the same for each user of the resource. In particular, not every brief interruption should necessarily result in a long speech being considered as two or more separate speeches. However, using the attributes for speakers and dates, speeches can be reconstructed by creating specific subcorpora with `polmineR`.
 
@@ -154,7 +151,7 @@ dates <- s_attributes(target, "protocol_date")
 dates <- as.Date(dates)
 ```
 
-The entire corpus comprises of `r format(round(size(target) / 1e6), trim = TRUE)` million tokens. The corpus covers the period between `r min(dates, na.rm = TRUE)` and `r max(dates, na.rm = TRUE)`. Figure \@ref(fig:data-report-yearplot) shows the temporal distribution of tokens over the corpus which can be accessed via the structural attribute **year**.
+The entire corpus comprises of `r format(round(size(target) / 1e6), trim = TRUE)` million tokens. The corpus covers the period between `r min(dates, na.rm = TRUE)` and `r max(dates, na.rm = TRUE)`. Figure \@ref(fig:data-report-yearplot) shows the temporal distribution of tokens over the corpus which can be accessed via the structural attribute **protocol_year**.
 
 ```{r data_report_year, echo = FALSE, message = FALSE}
 dt_year <- size(target, s_attribute = "protocol_year")
@@ -222,9 +219,9 @@ setorder(year_overview_dt, lp)
 data.table::fwrite(year_overview_dt, "data_raw/GERMAPARL2_year_overview_dt.csv")
 ```
 
-the date of a session is stored in the format of `YYYY-MM-DD`. As additional temporal attributes, the legislative period, the session and the year are provided.
+the date of a session is stored in the format of `YYYY-MM-DD`. As additional temporal attributes the legislative period, the session and the year are provided.
 
-### Parliamentary Group{-}
+### Parliamentary Groups{-}
 
 The parliamentary group a speaker is affiliated to can be addressed via the structural attribute **speaker_parlgroup**. There are `r length(unique(s_attributes(target, "speaker_parlgroup")))` parliamentary groups in the corpus which are illustrated in table \@ref(tab:data-report-parliamentary-group-category).
 
@@ -261,7 +258,7 @@ ggplot(dt_parliamentary_group, aes(reorder(speaker_parlgroup, -size), size)) +
 
 Note that only members of parliament have a parliamentary group. For all other speakers, this value will be "NA". Furthermore, different versions of the same parliamentary group's name have been harmonized under one label.
 
-### Party{-}
+### Parties{-}
 
 The party affiliation can be addressed via the structural attribute **speaker_party**. There are `r length(unique(s_attributes(target, "speaker_party")))` parties in the corpus. Table \@ref(tab:data-report-party-tab) as well as figure \@ref(fig:data-report-party-plot) illustrate the absolute number of tokens uttered by each party.
 
@@ -293,6 +290,8 @@ ggplot(dt_party, aes(reorder(speaker_party, -size), size)) +
        caption = sprintf("Corpus Version: %s", corpus_version))
 ```
 
+<br><br>
+
 :::: {.blackbox data-latex=""}
 _Note:_ The speaker with the label "CDU oder parteilos" is Ludwig Erhard. The timing of Erhard's party affiliation seems to be unclear (see for example https://www.ludwig-erhard.de/stichworte/ludwig-erhard-und-die-cdu/).
 ::::
@@ -300,7 +299,7 @@ _Note:_ The speaker with the label "CDU oder parteilos" is Ludwig Erhard. The ti
 Similar to parliamentary groups, there can be a number of different names for the same party over the years. These could be either harmonized in the external data or in the final data set. For now, we opted for the latter.
 
 
-### Role{-}
+### Roles{-}
 
 There are `r length(s_attributes(target, "speaker_role"))` different roles a speaker can occupy: governmental actors ("government"), member of parliament ("mp"), presidential speaker ("presidency") as well as miscellaneous speakers (which can represent a number of roles such as the head of state (Bundespräsident) or (international) guest speakers) and speakers of the federal council which attend the sessions of the *Bundestag* occasionally. In addition, the parliamentary commissioner (*Wehrbeauftragte:r des Deutschen Bundestages*) is annotated. Table \@ref(tab:data-report-role) and figure \@ref(fig:data-report-role-plot) provide information about the distribution of roles in the corpus. These different roles are accessed via the s-attribute **speaker_role**.
 
@@ -335,7 +334,7 @@ ggplot(dt_role, aes(reorder(speaker_role, -size), size)) +
 #ggsave("img/dt_role.jpeg", device = "jpeg")
 ```
 
-### Speaker{-}
+### Speakers{-}
 
 The structural attribute **speaker_name** identifies individual speakers. Table \@ref(tab:data-report-speaker-dt) shows the 20 speakers who utter the most words in the corpus.
 
@@ -352,4 +351,12 @@ knitr::kable(head(dt_size_speaker[order(size, decreasing = TRUE), ], 20),
 
 ### Paragraphs and Sentences{-}
 
-The boundaries of individual paragraphs and sentences are annotated. It is important to note that in table \@ref(tab:annotation-s-attributes) the value for the structural attributes `p` and `s` is NULL. This means here that regions for paragraphs and sentences are annotated and available within the corpus but they do not have any values which can be directly addressed. In practice this means that while context windows could be defined by sentence boundaries, a single sentence cannot be queried by name as of now. As shown above, paragraphs have an attribute "type" which is used to differentiate between paragraphs which contain ordinary speech and paragraphs which contain stage comments such as interjections.
+The boundaries of individual paragraphs and sentences are annotated. It is important to note that in table \@ref(tab:annotation-s-attributes) the value for the structural attributes `p` and `s` is NULL. This means that regions for paragraphs and sentences are annotated and available within the corpus but they do not have any values which can be directly accessed.
+
+Introductory examples of potential ways to use sentence annotation is shown in `r link_or_footnote("one session", "https://polmine.github.io/cookbook/sentences_intro#1", "2023-12-18")` of the "Cookin' with GermaParl" Webinar Series.
+
+As shown above, paragraphs have an attribute "type" which is used to differentiate between paragraphs which contain ordinary speech and paragraphs which contain stage comments such as interjections.
+
+### Additional Remarks{-}
+
+Like most of this documentation, this section focuses on the Corpus Workbench version of the GermaParl v2 corpus. The XML/TEI version of the corpus also contains the annotation of agenda items. Since these annotations are rather experimental, they are not included in the current version of the CWB corpus. Section \@ref(agenda-item) on the consolidation of the corpus provides some insights into the preparation of the agenda item annotation.

@@ -32,6 +32,25 @@ download_metadata <- lapply(tei_files, function(tei_file) {
 
 download_metadata_dt <- data.table::rbindlist(download_metadata)
 
+
+corpus_version <- RcppCWB::corpus_property(corpus = "GERMAPARL2",
+                                           property = "version")
+
+# there are versions in which the download date of LP 20 does not matter. Exclude
+# these protocols.
+
+if (corpus_version %in% c("v2.0.0", "v2.0.1")) {
+
+  lp20_protocols_idx <- which(gsub("BT_(\\d{2})_.*$",
+                                   "\\1",
+                                   download_metadata_dt$file) == "20")
+
+  if (length(lp20_protocols_idx) > 0) {
+    download_metadata_dt <- download_metadata_dt[-lp20_protocols_idx, ]
+  }
+}
+
+
 download_metadata_tbl <- download_metadata_dt |>
   mutate(id_as_numeric = as.integer(gsub("BT_(\\d+)_(\\d+).xml", "\\1\\2", file))) |>
   group_by(url, filetype) |>

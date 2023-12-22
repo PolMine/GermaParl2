@@ -116,8 +116,8 @@ von Thadden,BT_01_276.xml,von Thadden ,von Thadden,Fraktionsios,Fraktionslos,-,-
 Müller (Frankfurt),BT_01_276.xml,Müller Frankfurt) ,Müller (Frankfurt),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Müller (Frankfurt),BT_01_276.xml,Miller (Frankfurt) ,Müller (Frankfurt),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Müller (Frankfurt),BT_01_276.xml,Müller ,Müller (Frankfurt),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Weber (Essen),BT_02_015.xml,Weber (Aachen) ,﻿Weber (Essen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Weber (Essen),BT_02_018.xml,Weber (Aachen) ,﻿Weber (Essen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Weber (Essen),BT_02_015.xml,Weber (Aachen) ,Weber (Essen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Weber (Essen),BT_02_018.xml,Weber (Aachen) ,Weber (Essen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 D. Dr. Ehlers,BT_02_024.xml,D,D. Dr. Ehlers,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmidt (Hamburg),BT_02_035.xml,Schmidt: (Hamburg) ,Schmidt (Hamburg),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 D. Dr. Ehlers,BT_02_045.xml,D. Dr.. Ehlers,D. Dr. Ehlers,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -135,7 +135,7 @@ Gerstenmaier,BT_02_067.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TR
 Gerstenmaier,BT_02_069.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_02_070.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_02_071.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Koenen (Lippstadt),BT_02_071.xml,Koenen (Lippstadt ,﻿Koenen (Lippstadt),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Koenen (Lippstadt),BT_02_071.xml,Koenen (Lippstadt ,Koenen (Lippstadt),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_02_072.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von Spreti,BT_02_072.xml,Graf von Spreti ,von Spreti,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Wolf (Stuttgart),BT_02_073.xml,Wolf (Stuttgart) ,Wolf (Stuttgart),CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -155,7 +155,7 @@ Kühn (Bonn),BT_02_085.xml,KUhn (Bonn) ,Kühn (Bonn),-,-,-,-,-,-,FALSE,TRUE,FALS
 Gerstenmaier,BT_02_086.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Feller,BT_02_086.xml,Feller . ,Feller,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Kühn (Köln),BT_02_087.xml,KUhn (Köln) ,Kühn (Köln),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Weber (Essen),BT_02_087.xml,Weber (Aachen) ,﻿Weber (Essen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Weber (Essen),BT_02_087.xml,Weber (Aachen) ,Weber (Essen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_02_087.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_02_088.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_02_089.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -195,7 +195,7 @@ Gerstenmaier,BT_02_134.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TR
 Arndgen,BT_02_135.xml,Arndgen ,Arndgen,CSU/CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schellenberg,BT_02_136.xml,Schellenberg ,Schellenberg,SDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Stegner,BT_02_136.xml,Stegner ,Stegner,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Weber (Essen),BT_02_136.xml,Weber (Aachen) ,﻿Weber (Essen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Weber (Essen),BT_02_136.xml,Weber (Aachen) ,Weber (Essen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmid,BT_02_136.xml,Schmidt,Schmid,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_02_137.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Becker (Hamburg),BT_02_141.xml,Decker (Hamburg) ,Becker (Hamburg),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -219,7 +219,7 @@ Gerstenmaier,BT_02_157.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TR
 Berendsen,BT_02_157.xml,I Berendsen ,Berendsen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_02_158.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_02_159.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Weber (Essen),BT_02_159.xml,Weber (Aachen) ,﻿Weber (Essen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Weber (Essen),BT_02_159.xml,Weber (Aachen) ,Weber (Essen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_02_160.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_02_161.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_02_162.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -287,7 +287,7 @@ von Manteuffel (Neuß),BT_02_205.xml,von Manteuffel (Neuß) ,von Manteuffel (Neu
 Gerstenmaier,BT_02_205.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_02_206.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Körner,BT_02_206.xml,Körner ,Körner,DP [FVP],DP/FVP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Weber (Essen),BT_02_206.xml,Weber (Aachen) ,﻿Weber (Essen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Weber (Essen),BT_02_206.xml,Weber (Aachen) ,Weber (Essen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Kalinke,BT_02_206.xml,Kalinke ,Kalinke,DP[FVP],DP/FVP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_02_207.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Graf,BT_02_207.xml,Graf (München) ,Graf,DP[FVP],DP/FVP,-,-,-,-,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
@@ -449,14 +449,14 @@ Gerstenmaier,BT_03_075.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TR
 Gerstenmaier,BT_03_076.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_077.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_078.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Becker (Mönchengladbach),BT_03_078.xml,Becker (München-Gladbach) ,﻿Becker (Mönchengladbach),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Becker (Mönchengladbach),BT_03_078.xml,Becker (München-Gladbach) ,Becker (Mönchengladbach),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Becker (Mönchengladbach),BT_03_078.xml,Becker (Mönchen-Gladbach) ,Becker (Mönchengladbach),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Becker (Mönchengladbach),BT_03_078.xml,Becker (Mänchen-Gladbach) ,﻿Becker (Mönchengladbach),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Becker (Mönchengladbach),BT_03_078.xml,Becker (Mänchen-Gladbach) ,Becker (Mönchengladbach),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schneider (Saarbrücken),BT_03_078.xml,Schneider (Saarbrücken) ,Schneider (Saarbrücken),SPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_080.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Kaisen,BT_03_080.xml,-,-,-,-,presidency,federal_council,-,-,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
 Gerstenmaier,BT_03_081.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Schmidt (Hamburg)	,BT_03_081.xml,Schmidt ( Hamburg) ,Schmidt (Hamburg)	,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Schmidt (Hamburg),BT_03_081.xml,Schmidt ( Hamburg) ,Schmidt (Hamburg),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_082.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Becker (Mönchengladbach),BT_03_082.xml,Becker (Mönchen-Gladbach) ,Becker (Mönchengladbach),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_084.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -475,11 +475,9 @@ Eisenmann,BT_03_105.xml,Eisenmann ,Eisenmann,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FAL
 Gerstenmaier,BT_03_107.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Lenze (Attendorn),BT_03_110.xml,Lenze (Attendorn). ,Lenze (Attendorn),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_111.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Wilhelmi,BT_03_111.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_112.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Will,BT_03_114.xml,Will ,Will,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Eilers (Oldenburg),BT_03_114.xml,Hiers (Oldenburg) ,Eilers (Oldenburg),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Wilhelmi,BT_03_114.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_114.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Baier (Mosbach),BT_03_114.xml,Baler (Mosbach) ,Baier (Mosbach),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Preusker,BT_03_114.xml,Preusker ,Preusker,FDP,DP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -488,7 +486,6 @@ Gerstenmaier,BT_03_115.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TR
 Vogt,BT_03_115.xml,Vogt ,Vogt,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmid,BT_03_116.xml,Schmidt,Schmid,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_117.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Wilhelmi,BT_03_118.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_118.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Kühn (Köln),BT_03_119.xml,K hin (Köln) ,Kühn (Köln),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_119.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -507,9 +504,7 @@ Gerstenmaier,BT_03_129.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TR
 Becker (Mönchengladbach),BT_03_129.xml,Becker (Mönchen-Gladbach) ,Becker (Mönchengladbach),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_130.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_131.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Wilhelmi,BT_03_132.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_133.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Wilhelmi,BT_03_133.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_134.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_135.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_136.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -531,11 +526,9 @@ Gerstenmaier,BT_03_158.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TR
 Frehsee,BT_03_158.xml,Frehsee ,Frehsee,SDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_159.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_160.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Wilhelmi,BT_03_160.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Dürr,BT_03_161.xml,Dürr ,Dürr,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_161.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_162.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Wilhelmi,BT_03_163.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Spies (Emmenhausen),BT_03_164.xml,Spies (Emmenhausen). ,Spies (Emmenhausen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_03_164.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Jahn (Marburg),BT_03_164.xml,Jahn Narburg) ,Jahn (Marburg),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -621,7 +614,7 @@ Gerstenmaier,BT_04_058.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TR
 Jacoby (Köln),BT_04_059.xml,Jacobi (Köln ,Jacoby (Köln),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Hamm (Kaiserslautern),BT_04_059.xml,Hamm (Kaiserslautern) ,Hamm (Kaiserslautern),FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_04_060.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Becker (Pirmasens),BT_04_062.xml,Becker ,﻿Becker (Pirmasens),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Becker (Pirmasens),BT_04_062.xml,Becker ,Becker (Pirmasens),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_04_062.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Ritzel,BT_04_065.xml,Ritzel ,Ritzel,SDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_04_068.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -654,7 +647,7 @@ Gerstenmaier,BT_04_094.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TR
 Gerstenmaier,BT_04_096.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_04_098.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_04_101.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Becker (Pirmasens),BT_04_101.xml,Becker ,﻿Becker (Pirmasens),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Becker (Pirmasens),BT_04_101.xml,Becker ,Becker (Pirmasens),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schwabe,BT_04_103.xml,Schwabe ,Schwabe,SDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_04_104.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_04_105.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -929,7 +922,6 @@ Riegel (Göppingen),BT_05_157.xml,Riegel (Göppingen) ,Riegel (Göppingen),CDU/C
 Gerstenmaier,BT_05_157.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_05_158.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_05_159.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Bauer (Wasserburg),BT_05_159.xml,Bauer (Wasserburg) ,Bauer (Wasserburg),CDU: CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ritz,BT_05_159.xml,Ritz ,Ritz,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerstenmaier,BT_05_160.xml,D. Dr. Gerstenmaier,Gerstenmaier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Aigner,BT_05_161.xml,Aigner ,Aigner,CDU' CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -992,47 +984,47 @@ Güde,BT_05_232.xml,Gilde ,Güde,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Opitz,BT_05_232.xml,Opitz ,Opitz,SPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hirsch,BT_05_235.xml,Hirsch ,Hirsch,SDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Heinemann,BT_05_245.xml,D. Dr. Dr. Heinemann,Heinemann,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_007.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_011.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_013.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_007.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_011.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_013.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Kliesing (Honnef),BT_06_014.xml,KlieSing (Honnef) ,Kliesing (Honnef),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Barzel,BT_06_014.xml,Barzel ,Barzel,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_017.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_017.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Diemer-Nicolaus,BT_06_019.xml,Diemer-Nicolaus ,Diemer-Nicolaus,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_021.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_021.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmidt (Kempten),BT_06_021.xml,Schmidt (Kempten) ,Schmidt (Kempten),CDU/CSU,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_022.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_025.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_022.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_025.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Vogel,BT_06_025.xml,-,-,-,-,government,federal_council,-,-,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
 Schmid,BT_06_026.xml,Schmidt,Schmid,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_027.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_027.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schachtschabel,BT_06_029.xml,Schachtschabel . ,Schachtschabel,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmid,BT_06_029.xml,Schmidt,Schmid,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_029.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_029.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmid (Frankfurt),BT_06_032.xml,Schmid (Frankfurt) ,Schmid (Frankfurt),CDU/CSU,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_06_032.xml,Dr. ' Schmitt-Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Barzel,BT_06_033.xml,Barzel ,Barzel,CSU/CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Josten,BT_06_034.xml,Josten . ,Josten,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_036.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_036.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Diemer-Nicolaus,BT_06_039.xml,Diemer-Nicolaus ,Diemer-Nicolaus,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Becher (Pullach),BT_06_039.xml,Becher. (Pullach) ,Becher (Pullach),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_041.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_041.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_06_042.xml,Schoettle,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_043.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_044.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_043.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_044.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Jung,BT_06_044.xml,Jung . ,Jung,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_045.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_047.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_049.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_050.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_045.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_047.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_049.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_050.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmidt (Kempten),BT_06_050.xml,Schmidt (Kempten)( ,Schmidt (Kempten),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_052.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_052.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Geiger,BT_06_055.xml,Geiger ,Geiger,SDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_056.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_056.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Barzel,BT_06_059.xml,Barzel ,Barzel,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_061.xml,Arndt,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_061.xml,Arndt,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Kiechle,BT_06_068.xml,Kiechle ,Kiechle,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Arndt (Berlin),BT_06_068.xml,Arndt ,﻿Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Berlin),BT_06_068.xml,Arndt ,Arndt (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmidt (Kempten),BT_06_075.xml,SChmidt (Kempten) ,Schmidt (Kempten),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Wurbs,BT_06_084.xml,Wurbs ,Wurbs,SPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_06_087.xml,Dr. 'Schmitt-Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -1104,113 +1096,74 @@ Barzel,BT_06_194.xml,Barzel ,Barzel,CSU/CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALS
 Schmitt-Vockenhausen,BT_06_194.xml,Dr. 'Schmitt-Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Müller (München),BT_06_195.xml,Müller (München) ,Müller (München),fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Apel,BT_06_198.xml,Apel ,Apel,PSD,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_005.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmidt (Kempten),BT_07_005.xml,Schmidt Kempten) ,Schmidt (Kempten),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Moersch,BT_07_006.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schröder (Lüneburg),BT_07_006.xml,Schröder (Lüneburg) ,Schröder (Lüneburg),CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schröder (Lüneburg),BT_07_006.xml,Schröder (Lüneburg) ,Schröder (Lüneburg),"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_008.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_009.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wörner,BT_07_010.xml,Wörner ,Wörner,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_010.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jung,BT_07_010.xml,Jung ,Jung,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_011.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_012.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Fuchs,BT_07_012.xml,Fuchs ,Fuchs,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Franke (Osnabrück),BT_07_012.xml,Franke (Osnabrück) ,Franke (Osnabrück),CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wohlrahe,BT_07_012.xml,Wohlrahe ,Wohlrahe,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schweitzer,BT_07_014.xml,Schweitzer ,Schweitzer,FPD,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Berger (Berlin),BT_07_014.xml,Berger (Berlin ,Berger (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Abelein,BT_07_014.xml,Abelein ,Abelein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_014.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Leicht,BT_07_014.xml,Leicht ,Leicht,CDU /CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_014.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_014.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_015.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_015.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wohlrabe,BT_07_015.xml,Wohlrabe ,Wohlrabe,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Waffenschmidt,BT_07_015.xml,Waffenschmidt ,Waffenschmidt,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Milz,BT_07_015.xml,Milz ,Milz,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_015.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Marx,BT_07_015.xml,Marx ,Marx,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Marx,BT_07_015.xml,Marx ,Marx,CDU; CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jäger (Wangen),BT_07_015.xml,Jäger (Wangen) ,Jäger (Wangen),CDU; CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Werner,BT_07_016.xml,Werner ,Werner,CDU 'CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Kiechle,BT_07_017.xml,Kiechle ,Kiechle,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_017.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wohlrabe,BT_07_017.xml,Wohlrabe ,Wohlrabe,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerster (Mainz),BT_07_017.xml,Gerster (Mainz) ,Gerster (Mainz),CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Zeitel,BT_07_017.xml,Zeitel ,Zeitel,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Marx,BT_07_017.xml,Marx ,Marx,CDU; CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_018.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Tübler,BT_07_018.xml,Tübler ,Tübler,CDU; CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Höcherl,BT_07_019.xml,Höcherl ,Höcherl,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_019.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_020.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_021.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_022.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_023.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_023.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_023.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Marx,BT_07_024.xml,Marx ,Marx,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jäger (Wangen),BT_07_024.xml,Jäger (Wangen) ,Jäger (Wangen),CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_024.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_026.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Br. Barzel,BT_07_027.xml,Br. Barzel ,Br. Barzel,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Seiters,BT_07_027.xml,Seiters ,Seiters,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_027.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_028.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Freiherr Spies von Büllesheim,BT_07_029.xml,Freiherr Spies von Büllesheim ,Freiherr Spies von Büllesheim,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Mertes (Gerolstein),BT_07_029.xml,Mertes (Gerolstein) ,Mertes (Gerolstein),"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Reddemann,BT_07_030.xml,Reddemann ,Reddemann,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_030.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_031.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_031.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Eigen,BT_07_032.xml,Eigen ,Eigen,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Freiherr Spies von Büllesheim,BT_07_033.xml,Freiherr Spies von Büllesheim ,Freiherr Spies von Büllesheim,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Funcke,BT_07_033.xml,Funcke ,Funcke,SPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_034.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_034.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_034.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_035.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Erhard (Bad Schwalbach),BT_07_036.xml,Erhard (Bad Schwalbach) ,Erhard (Bad Schwalbach),"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_036.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_037.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Erhard (Bad Schwalbach),BT_07_039.xml,Erhard (Bad Schwalbach) ,Erhard (Bad Schwalbach),"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Erhard (Bad Schwalbach),BT_07_039.xml,Erhard (Bad Schwalbach) ,Erhard (Bad Schwalbach),CDU 'CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Sick,BT_07_039.xml,Sick ,Sick,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_039.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Höcherl,BT_07_039.xml,Höcherl ,Höcherl,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_039.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_040.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_040.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_042.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_043.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_043.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Müller (Berlin),BT_07_043.xml,Miller (Berlin) ,Müller (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Carstens (Fehmarn),BT_07_044.xml,Carstens Fehmarn) ,Carstens (Fehmarn),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_044.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jenninger,BT_07_045.xml,Jenninger ,Jenninger,CDU 'CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Waffenschmidt,BT_07_045.xml,Waffenschmidt ,Waffenschmidt,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jobst,BT_07_045.xml,Jobst ,Jobst,CDU /CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Picard,BT_07_045.xml,Picard ,Picard,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Mikat,BT_07_045.xml,Mikat ,Mikat,CDU /CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_045.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Niegel,BT_07_045.xml,Niegel ,Niegel,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Althammer,BT_07_045.xml,Althammer ,Althammer,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Althammer,BT_07_046.xml,Althammer ,Althammer,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Baier,BT_07_046.xml,Baier ,Baier,"CDU ""CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Warnke,BT_07_046.xml,Warnke ,Warnke,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Pfeffermann,BT_07_046.xml,Pfeffermann ,Pfeffermann,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_046.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_047.xml,Dr. 'Schmitt-Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_048.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_049.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_051.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Freiherr Spies von Büllesheim,BT_07_051.xml,Freiherr Spies von Büllesheim ,Freiherr Spies von Büllesheim,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Müller-Hermann,BT_07_051.xml,Müller-Hermann ,Müller-Hermann,CDU 'CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hoffie,BT_07_051.xml,Hoffie ,Hoffie,SPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_052.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ey,BT_07_053.xml,Ey ,Ey,CDU /CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jaeger,BT_07_053.xml,Jaeger ,Jaeger,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Mertes (Gerolstein),BT_07_053.xml,Mertes (Gerolstein) ,Mertes (Gerolstein),CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -1219,368 +1172,200 @@ Mick,BT_07_054.xml,Mick ,Mick,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FAL
 Niegel,BT_07_054.xml,Niegel ,Niegel,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_055.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Biehle,BT_07_055.xml,Biehle ,Biehle,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_055.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Schwencke,BT_07_055.xml,Schwenke ,﻿Schwencke,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_057.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+Schwencke,BT_07_055.xml,Schwenke ,Schwencke,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Burger,BT_07_058.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_058.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_058.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_061.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_061.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Miltner,BT_07_061.xml,Miltner ,Miltner,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Zimmermann,BT_07_061.xml,Zimmermann ,Zimmermann,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Lenzer,BT_07_061.xml,Lenzer ,Lenzer,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wörner,BT_07_062.xml,Wörner ,Wörner,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wörner,BT_07_062.xml,Wörner ,Wörner,CDU; CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Carstens (Fehmarn),BT_07_062.xml,Carstens ,Carstens (Fehmarn),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_062.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Leicht,BT_07_062.xml,Leicht ,Leicht,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerster (Mainz),BT_07_063.xml,Gerster (Mainz) ,Gerster (Mainz),CDU /CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 von Fircks,BT_07_063.xml,von Fircks ,von Fircks,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Niegel,BT_07_064.xml,Niegel ,Niegel,CDU; CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_064.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_064.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Werner,BT_07_064.xml,Werner ,Werner,CDU 'CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Kunz (Berlin),BT_07_064.xml,Kunz (Berlin) ,Kunz (Berlin),"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_064.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Marx,BT_07_065.xml,Marx ,Marx,CDU /CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jäger (Wangen),BT_07_066.xml,Jänger (Wangen) ,Jäger (Wangen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Kunz (Weiden),BT_07_066.xml,Kunz (Weiden)( ,﻿Kunz (Weiden),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Kunz (Weiden),BT_07_066.xml,Kunz (Weiden)( ,Kunz (Weiden),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Burger,BT_07_067.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_067.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_067.xml,Schmitt Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_067.xml,Dr. .Schmitt-Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_067.xml,Schmitt-VockenhausEn,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_067.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_069.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_069.xml,Dr. 'Schmitt-Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_069.xml,Dr. .Schmitt-Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_069.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_069.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_070.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_070.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_070.xml,Dr. 'Schmitt-Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Wohlrabe,BT_07_071.xml,Wohlrabe ,Wohlrabe,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_071.xml,Burger ,Burger,SPD,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_071.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_071.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_073.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_073.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_074.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_076.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_076.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_077.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Becher (Pullach),BT_07_078.xml,Becher (Pullach) ,Becher (Pullach),CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Dregger,BT_07_079.xml,Dregger ,Dregger,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Schäfer (Tübingen),BT_07_079.xml,Schäfer (Tübingen ) ,﻿Schäfer (Tübingen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Moersch,BT_07_079.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+Schäfer (Tübingen),BT_07_079.xml,Schäfer (Tübingen ) ,Schäfer (Tübingen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Moersch,BT_07_079.xml,Moersch ,Moersch,FD'P,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_079.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_080.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_081.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Franke (Osnabrück),BT_07_081.xml,Franke (Osnabrück ,Franke (Osnabrück),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_081.xml,Dr. 'Schmitt-Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Hupka,BT_07_081.xml,Hupka ,Hupka,CDU /CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_081.xml,Dr. - Schmitt-Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_081.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_082.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_085.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_085.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Engelsberger,BT_07_085.xml,Engelsberger ,Engelsberger,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_086.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_086.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_088.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Verhülsdonk,BT_07_088.xml,Verhülsdonk ,Verhülsdonk,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Verhülsdonk,BT_07_088.xml,Verhülsdonk ,Verhülsdonk,CDU' CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_088.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_088.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 von Bismarck,BT_07_088.xml,von Bismarck ,von Bismarck,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerster (Mainz),BT_07_088.xml,Gerster (Mainz) ,Gerster (Mainz),CDU 'CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Freiherr Spies von Büllesheim,BT_07_088.xml,Freiherr Spies von Büllesheim ,Freiherr Spies von Büllesheim,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_090.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_090.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Mertes (Gerolstein),BT_07_090.xml,Mertes (Gerolstein) ,Mertes (Gerolstein),CDU /CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Schwencke,BT_07_090.xml,Schwenke ,﻿Schwencke,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Schwencke,BT_07_090.xml,Schwenke ,Schwencke,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Hammans,BT_07_090.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_091.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_091.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_093.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Freiherr Spies von Büllesheim,BT_07_094.xml,Freiherr Spies von Büllesheim ,Freiherr Spies von Büllesheim,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_095.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_095.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_096.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_096.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Carstens (Fehmarn),BT_07_101.xml,Carstens ,Carstens (Fehmarn),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_101.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_102.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Däubler-Gmelin,BT_07_102.xml,Frau 'Däubler-Gmelin ,Däubler-Gmelin,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Moersch,BT_07_102.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_103.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_104.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Eilers (Wilhelmshaven),BT_07_104.xml,Filers (Wilhelmshaven) ,Eilers (Wilhelmshaven),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_105.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Freiherr Spies von Büllesheim,BT_07_106.xml,Freiherr Spies von Büllesheim ,Freiherr Spies von Büllesheim,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hölscher,BT_07_106.xml,Hölscher ,Hölscher,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_106.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_106.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_107.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_107.xml,Dr. 'Schmitt-Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Hammans,BT_07_108.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_108.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_109.xml,Dr. 'Schmitt-Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_109.xml,Dr. .Schmitt-Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Moersch,BT_07_109.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_110.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_110.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmidt (Wattenscheid),BT_07_110.xml,Schmidt (Wattenscheid). ,Schmidt (Wattenscheid),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_111.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Filbinger,BT_07_112.xml,-,-,-,-,presidency,federal_council,-,-,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
-Moersch,BT_07_116.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_116.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_117.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_117.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_119.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_119.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Schröder (Wilhelminenhof),BT_07_119.xml,Schröder (Wilheminenhof) ,﻿Schröder (Wilhelminenhof),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Schröder (Wilhelminenhof),BT_07_119.xml,Schröder (Wilheminenhof) ,Schröder (Wilhelminenhof),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Freiherr Spies von Büllesheim,BT_07_119.xml,Freiherr Spies von Büllesheim ,Freiherr Spies von Büllesheim,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_120.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_121.xml,Schmitt-Vorkenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_122.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_122.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_123.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_125.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_125.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_125.xml,Br. Schmitt-Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_126.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 von Fircks,BT_07_127.xml,von Fircks ,von Fircks,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerster (Mainz),BT_07_127.xml,Gerster (Mainz) ,Gerster (Mainz),CDU 'CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerster (Mainz),BT_07_127.xml,Gerster (Mainz) ,Gerster (Mainz),CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Abelein,BT_07_127.xml,Abelein ,Abelein,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_127.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Engelhard,BT_07_128.xml,Engelhard ,Engelhard,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_128.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Zeitel,BT_07_128.xml,Zeitel ,Zeitel,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_128.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Müller (Schweinfurt),BT_07_129.xml,Millier (Schweinfurt) ,Müller (Schweinfurt),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Burger,BT_07_130.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_130.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_131.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Metzger,BT_07_131.xml,Metzger ,Metzger,SDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Freiherr Spies von Büllesheim,BT_07_131.xml,Freiherr Spies von Büllesheim ,Freiherr Spies von Büllesheim,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wiefel,BT_07_131.xml,Wiefel ,Wiefel,SDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Arndt (Hamburg),BT_07_133.xml,Arndt ,﻿Arndt (Hamburg),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Arndt (Hamburg),BT_07_133.xml,Arndt ,Arndt (Hamburg),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Jäger (Wangen),BT_07_133.xml,Jäger (Wangen) ,Jäger (Wangen),CDU /CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Graf Lambsdorff,BT_07_134.xml,Graf Lambsdorff ,Graf Lambsdorff,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_134.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_134.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Riedl (München),BT_07_135.xml,Riedf (München) ,Riedl (München),CDU CSU,CDU/CSU,-,-,-,-,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
 Althammer,BT_07_135.xml,Althammer ,Althammer,CDU /CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_136.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wernitz,BT_07_136.xml,Wernitz ,Wernitz,SDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_136.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_137.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_138.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Windelen,BT_07_138.xml,Windelen ,Windelen,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_138.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_139.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_139.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Reddemann,BT_07_140.xml,Reddemann ,Reddemann,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_141.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_141.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hupka,BT_07_141.xml,Hupka ,Hupka,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hupka,BT_07_141.xml,Hupka ,Hupka,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Pfeffermann,BT_07_141.xml,Pfeffermann ,Pfeffermann,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_143.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Walz,BT_07_143.xml,Walz ,Walz,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hirsch,BT_07_143.xml,Hirsch ,Hirsch,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_143.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Arndt (Hamburg),BT_07_143.xml,Arndt (Hamburg ,Arndt (Hamburg),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Stark (Nürtingen),BT_07_143.xml,Stark (Nürtingen) ,Stark (Nürtingen),CDU 'CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Freiherr Spies von Büllesheim,BT_07_145.xml,Freiherr Spies von Büllesheim ,Freiherr Spies von Büllesheim,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_146.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_146.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wohlrabe,BT_07_147.xml,Wohlrabe ,Wohlrabe,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_147.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_147.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Müller (München),BT_07_148.xml,Müller (München) ,Müller (München),CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hupka,BT_07_148.xml,Hupka ,Hupka,CDU 'CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schneider,BT_07_148.xml,Schneider ,Schneider,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_148.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Renger,BT_07_148.xml,Berger,Renger,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_149.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Klein (Göttingen),BT_07_149.xml,Mein (Göttingen) ,Klein (Göttingen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Moersch,BT_07_149.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_150.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Meinike (Oberhausen),BT_07_151.xml,Meifike (Oberhausen) ,Meinike (Oberhausen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Freiherr Spies von Büllesheim,BT_07_151.xml,Freiherr Spies von Büllesheim ,Freiherr Spies von Büllesheim,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Pfeifer,BT_07_151.xml,Pfeifer ,Pfeifer,CDU 'CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_152.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_152.xml,Burger ,Burger,CDU/ CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_152.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hupka,BT_07_152.xml,Hupka ,Hupka,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_152.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Freiherr Spies von Büllesheim,BT_07_152.xml,Freiherr Spies von Büllesheim ,Freiherr Spies von Büllesheim,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_153.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Kunz (Berlin),BT_07_154.xml,Kunz ,Kunz (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Hösl,BT_07_154.xml,Hösl ,Hösl,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_155.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_155.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_156.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_158.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_159.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schäfer (Tübingen),BT_07_159.xml,Dr. 'Schäfer (Tübingen) ,Schäfer (Tübingen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_159.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ollesch,BT_07_159.xml,Ollesch ,Ollesch,SPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_160.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_161.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_162.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_162.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_162.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Lüdemann,BT_07_162.xml,Lüdemann ,Lüdemann,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_164.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Müller-Hermann,BT_07_164.xml,Müller-Hermann ,Müller-Hermann,CDU /CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_164.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hirsch,BT_07_167.xml,Hirsch ,Hirsch,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_167.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_167.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_168.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_169.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Spranger,BT_07_169.xml,Spranger ,Spranger,CDU; CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Spranger,BT_07_169.xml,Spranger ,Spranger,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_170.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_170.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_172.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_173.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_173.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_173.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_175.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_175.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_176.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_176.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_176.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_176.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Penner,BT_07_178.xml,Penner ,Penner,SDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_178.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_178.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_180.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_180.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_07_180.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_181.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_181.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerstl (Passau),BT_07_181.xml,Gerstl (Passau) ,Gerstl (Passau),CDU/CSU,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_182.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_183.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_184.xml,Schmidt-Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_184.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_185.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_185.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wagner (Trier),BT_07_185.xml,Wager (Trier) ,Wagner (Trier),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Moersch,BT_07_185.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_187.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_187.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_187.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_188.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jaunich,BT_07_189.xml,Jaunich ,Jaunich,CDU /CSU,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Müller (München),BT_07_192.xml,Müllet (München) ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Moersch,BT_07_193.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_07_194.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_196.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_196.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_196.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Niegel,BT_07_196.xml,Niegel ,Niegel,"CDU, CSU",CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Lemmrich,BT_07_196.xml,Lemmrich ,Lemmrich,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_197.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_199.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_200.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_200.xml,Burger ,Burger,"CDU, CSU",CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Carstens (Fehmarn),BT_07_200.xml,Carstens ,Carstens (Fehmarn),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_201.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_203.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_203.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_205.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_206.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_207.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_208.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Graf Lambsdorff,BT_07_208.xml,Graf Lambsdorff ,Graf Lambsdorff,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_209.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_209.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_209.xml,Schmitt Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_212.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_212.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_213.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Czaja,BT_07_214.xml,Czaja ,Czaja,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_215.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_215.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_215.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_216.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Horstmeier,BT_07_217.xml,Horstmeier ,Horstmeier,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_217.xml,Schmit-Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Burger,BT_07_217.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_218.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_218.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_218.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jäger (Wangen),BT_07_218.xml,Jäger (Wangen) ,Jäger (Wangen),CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_219.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schröder (Wilhelminenhof),BT_07_219.xml,Schröder (Wilhelminenhof) ,Schröder (Wilhelminenhof),CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_220.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_221.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_221.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Lemmrich,BT_07_222.xml,Lemmrich ,Lemmrich,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_222.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_224.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_225.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_225.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_227.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Emeis,BT_07_229.xml,Emeis ,Emeis,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Emeis,BT_07_230.xml,Emeis ,Emeis,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_230.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt-Vockenhausen,BT_07_230.xml,Schmitt- Vockenhausen,Schmitt-Vockenhausen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_230.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_230.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_232.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Reuschenbach,BT_07_233.xml,"Reuschenbach "" ",Reuschenbach,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Hammans,BT_07_233.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_233.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Emeis,BT_07_234.xml,Emeis ,Emeis,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_235.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_235.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_07_238.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_238.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_238.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_238.xml,Hammans ,Hammans,SPD,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_239.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_239.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hoppe,BT_07_240.xml,Hoppe ,Hoppe,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmidt,BT_07_240.xml,Schmid,Schmidt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_07_240.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wendig,BT_07_241.xml,Wendig ,Wendig,SPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_241.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_242.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jobst,BT_07_242.xml,Jobst ,Jobst,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_243.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_243.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_245.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_245.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_246.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_247.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_247.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_249.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_07_249.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_07_249.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU! CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_250.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_250.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_07_251.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Arndt (Hamburg),BT_07_252.xml,Arndt (Hamburg) ,Arndt (Hamburg),CDU/CSU,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_252.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_253.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_253.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_254.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_255.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_07_255.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_07_255.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU! CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_255.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burger,BT_07_256.xml,Burger ,Burger,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_07_256.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Maucher,BT_07_256.xml,Maucher ,Maucher,CDU 'CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_07_256.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hammans,BT_07_256.xml,Hammans ,Hammans,CDU CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -1588,105 +1373,78 @@ Hammans,BT_07_256.xml,Hammans ,Hammans,CDU/CSU,CDU,-,-,-,-,TRUE,FALSE,TRUE,FALSE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_07_256.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU' CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Straßmeir,BT_07_256.xml,Straßmeir ,Straßmeir,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Kunz (Berlin),BT_07_256.xml,Kunz (Berlin) ,Kunz (Berlin),CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_256.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Moersch,BT_07_257.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_001.xml,Schmitt-Vockenhausen ,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_006.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Bangemann,BT_08_007.xml,Bangemann ,Bangemann,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_007.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_007.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_008.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_009.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_010.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_011.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_011.xml,Schmidt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_011.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_013.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Müller (München),BT_08_013.xml,Müller ,﻿Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Müller (München),BT_08_013.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_013.xml,Sdhmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Neumann (Stelle),BT_08_014.xml,Neumann ,﻿Neumann (Stelle),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_014.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+Neumann (Stelle),BT_08_014.xml,Neumann ,Neumann (Stelle),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_015.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Wittmann (München),BT_08_015.xml,Wittmannn (München) ,Wittmann (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_015.xml,-,-,CDU/ CSU,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_016.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_016.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_017.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_018.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_018.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Müller (München),BT_08_018.xml,Müller ,﻿Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Müller (München),BT_08_020.xml,Müller ,﻿Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Müller (München),BT_08_018.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Müller (München),BT_08_020.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_020.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_020.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Müller (München),BT_08_021.xml,Müller ,﻿Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Müller (München),BT_08_021.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_021.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jäger,BT_08_021.xml,Jagen (Wangen) ,Jäger,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_021.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_021.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schwenk (Stade),BT_08_021.xml,Schwenk (Stade). ,Schwenk (Stade),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_022.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_023.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_023.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_023.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_024.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Frau. Funcke,BT_08_024.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_025.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_025.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 HoffIe,BT_08_025.xml,HoffIe . ,HoffIe,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_026.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_026.xml,Schmitt-Vockenhausen.,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_026.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_08_026.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_027.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_027.xml,Schmiitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_029.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_029.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_030.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_031.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_031.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Weber (Köln),BT_08_032.xml,Weber_ (Köln) ,Weber (Köln),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Stücklen,BT_08_032.xml,Maiden,Stücklen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_032.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Berger (Herne),BT_08_032.xml,Berger ,Berger (Herne),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_032.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_034.xml,Schmitt-Vockenhausen ,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_034.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_034.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_035.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_035.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Berger (Herne),BT_08_035.xml,Berger ,Berger (Herne),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_08_035.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_08_035.xml,-,-,CDU/ CSU,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_036.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_036.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_037.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_037.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_038.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_038.xml,Schmitt-VockenhauSen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Neumann (Stelle),BT_08_039.xml,Neumann ,﻿Neumann (Stelle),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Neumann (Stelle),BT_08_039.xml,Neumann ,Neumann (Stelle),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_039.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_039.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_040.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_040.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_040.xml,Schmitt-Vockenhausen ,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_042.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_042.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_043.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_044.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von Dohnanyi,BT_08_044.xml,von Donhanyl,von Dohnanyi,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Renger,BT_08_044.xml,Frauen Renger,Renger,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schartz (Trier),BT_08_044.xml,Schartz Trier) ,Schartz (Trier),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_044.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_046.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_046.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_08_046.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_047.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_047.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_047.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_048.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_049.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Berger (Herne),BT_08_049.xml,Berger ,Berger (Herne),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Spöri,BT_08_050.xml,Spörl ,﻿Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Spöri,BT_08_050.xml,Spörl ,Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_050.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_051.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_051.xml,Schmit-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -1695,104 +1453,76 @@ Tübler,BT_08_051.xml,Tübler ,Tübler,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,F
 Schmitt,BT_08_052.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_053.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_054.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Müller (München),BT_08_054.xml,Müller ,﻿Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Müller (München),BT_08_054.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_054.xml,Schmit-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Möllemann,BT_08_054.xml,Möllemann ,Möllemann,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_055.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_056.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_057.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_058.xml,Schmitt-Vockenhausen ,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_058.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_058.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_059.xml,Schmidt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_059.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Müller (München),BT_08_060.xml,Müller ,﻿Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Müller (München),BT_08_060.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Spöri,BT_08_060.xml,Dr Spöri ,Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Becher (Pullach),BT_08_061.xml,Becher (Pullach) ,Becher (Pullach),CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_061.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_062.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_063.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_063.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Spöri,BT_08_063.xml,Spörl ,﻿Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Spöri,BT_08_063.xml,Spörl ,Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Becker (Frankfurt),BT_08_063.xml,Becker - (Frankfurt) ,Becker (Frankfurt),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_065.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_065.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_067.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_067.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Frau- Funcke,BT_08_067.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_068.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_068.xml,Schmitt-VockenhauSen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_068.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Kleinert,BT_08_068.xml,Kleinert ,Kleinert,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_08_069.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_069.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_069.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_070.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_072.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_072.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_073.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_075.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_075.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_076.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_078.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_078.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_079.xml,Schmitt-Vockenhausen ,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_080.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_080.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_081.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_081.xml,Schmidt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_081.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_082.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_083.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_083.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_084.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ey,BT_08_085.xml,Ey ,Ey,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Becker (Frankfurt),BT_08_085.xml,Becker. (Frankfurt) ,Becker (Frankfurt),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_086.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_086.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_087.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_088.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Simonis,BT_08_088.xml,Simonis ,Simonis,FDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wittmann (München),BT_08_088.xml,Dr Wittmann (München) ,Wittmann (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_088.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jäger (Wangen),BT_08_089.xml,Jäger (Wangen). ,Jäger (Wangen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_090.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schröder (Wilhelminenhof),BT_08_090.xml,Schrader (Wilhelminenhof) ,Schröder (Wilhelminenhof),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_090.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_091.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Höpfinger,BT_08_092.xml,Höpfinger ,Höpfinger,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_093.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Spöri,BT_08_093.xml,Dr. -Spöri ,Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_093.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_094.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_095.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_095.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_095.xml,SchmItt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Wolfram (Recklinghausen),BT_08_097.xml,Wolfram (Recklinghausen) ,Wolfram (Recklinghausen),CDU/CSU,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_097.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_098.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_099.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_099.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_099.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hupka,BT_08_099.xml,Hupka . ,Hupka,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Funcke,BT_08_099.xml,Funcke ,Funcke,SPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_100.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_100.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Simonis,BT_08_100.xml,Simonis ,Simonis,FDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_100.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_101.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_103.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_103.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_104.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gruhl,BT_08_104.xml,Gruhl ,Gruhl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_104.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_105.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_107.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_109.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Jahn (Münster),BT_08_109.xml,D. Jahn (Münster) ,Jahn (Münster),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_110.xml,Dr.' Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_110.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_111.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_111.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Czaja,BT_08_111.xml,Dr Czaja ,Czaja,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Matthäus-Maier,BT_08_111.xml,Frau .Matthäus-Maier ,Matthäus-Maier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -1800,48 +1530,31 @@ Renger,BT_08_114.xml,Frau' Renger,Renger,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALS
 Jahn (Münster),BT_08_114.xml,Jahn. (Münster) ,Jahn (Münster),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_114.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_114.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_115.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_116.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hoffmann (Hoya),BT_08_116.xml,Hoffmann' (Hoya) ,Hoffmann (Hoya),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_117.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_117.xml,Schmitt-Vockenhausen ,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Renger,BT_08_119.xml,"Frau"""" Renger",Renger,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_120.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Dr. Holtz,BT_08_121.xml,"Dr., Holtz",Dr. Holtz,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_121.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Sauter (Epfendorf),BT_08_122.xml,Sauter (Epfendorf) ,Sauter (Epfendorf),CSU/CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_122.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_123.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_124.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Frau . Funcke,BT_08_124.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke.,BT_08_124.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_125.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Renger,BT_08_125.xml,Frau -Renger,Renger,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Simpfendörfer,BT_08_125.xml,Simpfendörfer ,Simpfendörfer,CDU/CSU,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gruhl,BT_08_125.xml,Gruhl ,Gruhl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jaunich,BT_08_126.xml,Jaunich ,Jaunich,CDU/CSU,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gobrecht,BT_08_128.xml,Gobrecht ,Gobrecht,CDU/CSU,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_128.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_129.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_130.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_131.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gruhl,BT_08_132.xml,Gruhl ,Gruhl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_132.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Schröder (Lüneburg),BT_08_133.xml,Schröder (Luneburg) ,﻿Schröder (Lüneburg),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Schröder (Lüneburg),BT_08_133.xml,Schröder (Luneburg) ,Schröder (Lüneburg),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_134.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_134.xml,Schmitt-VOckenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Müller (München),BT_08_134.xml,Müller ,﻿Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Müller (München),BT_08_134.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_135.xml,SchmItt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_135.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Haussmann,BT_08_135.xml,Haussmann . ,Haussmann,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_135.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_136.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_137.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Rapp (Göppingen),BT_08_137.xml,Rapp (Göppingen) ,Rapp (Göppingen),CDU/CSU,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_138.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_138.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hofmann (Kronach),BT_08_138.xml,Hofmann (Kronach) ,Hofmann (Kronach),SDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Frau .Funcke,BT_08_138.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jung,BT_08_138.xml,Jung . ,Jung,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Hoffie,BT_08_138.xml,Hoffie ,Hoffie,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Däubler-Gmelin,BT_08_139.xml,Frau ' Dr. Däubler-Gmelin ,Däubler-Gmelin,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -1851,56 +1564,39 @@ Schmitt,BT_08_140.xml,SchmItt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,
 von der Heydt Freiherr von Massenbach,BT_08_141.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_141.xml,Schmidt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_141.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_141.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_142.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_143.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_143.xml,SchmItt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_144.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_144.xml,SchmItt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_144.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_145.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_145.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_146.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_146.xml,SchmItt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Müller (München),BT_08_147.xml,Müller ,﻿Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_148.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+Müller (München),BT_08_147.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Wendig,BT_08_148.xml,Wendig ,Wendig,SPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_148.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_149.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_149.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_151.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_151.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_153.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_153.xml,Dr. • Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Müller (München),BT_08_153.xml,Müller ,﻿Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Müller (München),BT_08_153.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Grobecker,BT_08_153.xml,Grobecker ,Grobecker,SDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_154.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gruhl,BT_08_154.xml,Gruhl ,Gruhl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_154.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_156.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_156.xml,Schmitt-Vockenhauseri,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_157.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_157.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gruhl,BT_08_157.xml,Gruhl ,Gruhl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hamm-Brücher,BT_08_158.xml,Frati Dr. Hamm-Brücher,Hamm-Brücher,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schmitt,BT_08_158.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_159.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_160.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_161.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_162.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gruhl,BT_08_162.xml,Gruhl ,Gruhl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schmitt,BT_08_162.xml,Schmitt-Vockenhausen,Schmitt,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_163.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_164.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Matthäus-Maier,BT_08_164.xml,Frau 'Matthäus-Maier ,Matthäus-Maier,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Schäfer (Tübingen),BT_08_164.xml,Schäfer. (Tübingen) ,Schäfer (Tübingen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Möller,BT_08_164.xml,Möller ,Möller,CDU CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_164.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Stobbe,BT_08_165.xml,-,-,-,-,presidency,federal_council,-,-,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
-Funcke,BT_08_166.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_167.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gruhl,BT_08_167.xml,Gruhl ,Gruhl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_169.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_08_170.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Weisskirchen (Wiesloch),BT_08_171.xml,Weisskirchen (Wiesloch) ,Weisskirchen (Wiesloch),CDU/CSU,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Voss,BT_08_172.xml,Voss ,Voss,CSU/CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -1909,21 +1605,15 @@ von der Heydt Freiherr von Massenbach,BT_08_174.xml,von der Heydt Freiherr von M
 Renger,BT_08_175.xml,Frau. Renger,Renger,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_08_177.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hupka,BT_08_177.xml,Dr Hupka ,Hupka,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_177.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_180.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Meinecke (Hamburg),BT_08_180.xml,MeInecke (Hamburg) ,Meinecke (Hamburg),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Funcke,BT_08_181.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Tillmann,BT_08_181.xml,Tilimann ,Tillmann,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Tillmann,BT_08_181.xml,Tillmann ,Tillmann,SPD,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Tillmann,BT_08_181.xml,Tilimann ,Tillmann,SPD,CDU/CSU,-,-,-,-,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE
 Schäfer (Offenburg),BT_08_182.xml,Schäfer (Offenburg) ,Schäfer (Offenburg),SDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_183.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_08_185.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Prinz zu Sayn-WIttgenstein-Hohenstein,BT_08_185.xml,Prinz zu Sayn-WIttgenstein-Hohenstein ,Prinz zu Sayn-WIttgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Tillmann,BT_08_185.xml,Tilimann ,Tillmann,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gruhl,BT_08_186.xml,Gruhl ,Gruhl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Funcke,BT_08_186.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Freu Funcke,BT_08_186.xml,-,-,NA,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gruhl,BT_08_188.xml,Gruhl ,Gruhl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Voss,BT_08_189.xml,Voss . ,Voss,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_08_193.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -1938,19 +1628,19 @@ Gruhl,BT_08_205.xml,Gruhl ,Gruhl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TR
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_08_205.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Renger,BT_08_206.xml,Frau . Renger,Renger,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_08_209.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Müller (München),BT_08_211.xml,Müller ,﻿Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Müller (München),BT_08_211.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Merker,BT_08_213.xml,Merker ,Merker,SPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gruhl,BT_08_214.xml,Gruhl ,Gruhl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Müller (München),BT_08_216.xml,Müller ,﻿Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Müller (München),BT_08_216.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Pieroth,BT_08_216.xml,Pieroth . ,Pieroth,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_216.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Spöri,BT_08_216.xml,Spörl ,﻿Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Spöri,BT_08_216.xml,Spörl ,Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_217.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 von der Heydt Freiherr von Massenbach,BT_08_218.xml,von der Heydt Freiherr von Massenbach ,von der Heydt Freiherr von Massenbach,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jung,BT_08_218.xml,Jung ,Jung,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Biehle,BT_08_218.xml,Biehle ,Biehle,SPD,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Schröder (Wilhelminenhof),BT_08_220.xml,Schrader (Wilhelminenhof) ,Schröder (Wilhelminenhof),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Spöri,BT_08_220.xml,Spörl ,﻿Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Spöri,BT_08_220.xml,Spörl ,Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Prinz zu Sayn-Wittgenstein-Hohenstein,BT_08_221.xml,Prinz zu Sayn-Wittgenstein-Hohenstein ,Prinz zu Sayn-Wittgenstein-Hohenstein,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gruhl,BT_08_221.xml,Gruhl ,Gruhl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gruhl,BT_08_225.xml,Gruhl ,Gruhl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -1961,7 +1651,7 @@ Tandler,BT_08_228.xml,-,-,-,-,government,federal_council,-,-,FALSE,FALSE,FALSE,T
 Gruhl,BT_08_229.xml,Gruhl ,Gruhl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 von Weizsäcker,BT_09_008.xml,Dr.. von Weizsäcker,von Weizsäcker,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Müller (München),BT_09_009.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Spöri,BT_09_009.xml,Spörl ,﻿Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Spöri,BT_09_009.xml,Spörl ,Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Sauer (Stuttgart),BT_09_011.xml,SaUer (Stuttgart) ,Sauer (Stuttgart),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Kohl,BT_09_016.xml,Kohl ,Kohl,CSU/CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Haase (Kassel),BT_09_016.xml,Haase (Kassel) ,Haase (Kassel),CSU/CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -1978,11 +1668,11 @@ Lampersbach,BT_09_028.xml,Lampersbach ,Lampersbach,CSU/CSU,CDU/CSU,-,-,-,-,TRUE,
 Leithäuser,BT_09_031.xml,Frau Leithäuser,Leithäuser,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Fischer (Homburg),BT_09_039.xml,Fischer (Homburg). ,Fischer (Homburg),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Müller (München),BT_09_043.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Spöri,BT_09_044.xml,Spörl ,﻿Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Spöri,BT_09_044.xml,Spörl ,Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Hoppe,BT_09_052.xml,Hoppe ,Hoppe,SPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Leber,BT_09_055.xml,Dr. h. c. Leber,Leber,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Leber,BT_09_056.xml,Dr. h. c. Leber,Leber,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Spöri,BT_09_056.xml,Spörl ,﻿Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Spöri,BT_09_056.xml,Spörl ,Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Leber,BT_09_057.xml,Dr. h. c. Leber,Leber,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Magin,BT_09_059.xml,Magin ,Magin,CSU/CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Leber,BT_09_060.xml,Dr. h. c. Leber,Leber,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -2036,7 +1726,7 @@ Leber,BT_09_107.xml,Dr. h. c. Leber,Leber,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FAL
 Leber,BT_09_108.xml,Dr. h. c. Leber,Leber,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Hansen,BT_09_108.xml,Hansen ,Hansen,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Leber,BT_09_110.xml,Dr. h. c. Leber,Leber,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-﻿Spöri,BT_09_110.xml,Spörl ,﻿Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Spöri,BT_09_110.xml,Spörl ,Spöri,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Leber,BT_09_111.xml,Dr. h. c. Leber,Leber,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Leber,BT_09_112.xml,Dr. h. c. Leber,Leber,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Leber,BT_09_113.xml,Dr. h. c. Leber,Leber,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -2075,58 +1765,90 @@ Schuchardt,BT_09_141.xml,Schuchardt ,Schuchardt,fraktionslos,Fraktionslos,-,-,-,
 Hofmann (Kronach),BT_09_141.xml,Hofmann (Kronach) ,Hofmann (Kronach),fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Coppik,BT_09_141.xml,Coppik ,Coppik,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Genscher,BT_10_009.xml,Genscher ,Genscher,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_011.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_013.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Eimer (Fürth),BT_10_015.xml,Elmer (Fürth) ,Eimer (Fürth),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Diederich (Berlin),BT_10_016.xml,Diederich (Berlin) ,Diederich (Berlin),FDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_025.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Müller (München),BT_10_031.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_034.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Handlos,BT_10_038.xml,Handlos ,Handlos,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_039.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Peter (Kassel),BT_10_041.xml,Peter (Kassel) ,Peter (Kassel),FDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Stiegler,BT_10_042.xml,Stiegler ,Stiegler,FDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Voigt (Sonthofen),BT_10_043.xml,Voigt (Sonthofen) ,Voigt (Sonthofen),fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_047.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_048.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Handlos,BT_10_056.xml,Handlos ,Handlos,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_060.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Handlos,BT_10_061.xml,Handlos ,Handlos,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Voigt (Sonthofen),BT_10_062.xml,Voigt (Sonthofen) ,Voigt (Sonthofen),fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_063.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Handlos,BT_10_064.xml,Handlos ,Handlos,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_067.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Handlos,BT_10_071.xml,Handlos ,Handlos,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Voigt (Sonthofen),BT_10_071.xml,Voigt (Sonthofen) ,Voigt (Sonthofen),fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_071.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Handlos,BT_10_075.xml,Handlos ,Handlos,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Bastian,BT_10_077.xml,Bastian ,Bastian,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_077.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Dr. h. c. Strauß,BT_10_079.xml,-,-,-,-,presidency,federal_council,-,-,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE
 Müller (München),BT_10_080.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Bastian,BT_10_080.xml,Bastian ,Bastian,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Handlos,BT_10_082.xml,Handlos ,Handlos,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Müller (München),BT_10_085.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Bastian,BT_10_088.xml,Bastian ,Bastian,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_088.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Voigt (Sonthofen),BT_10_091.xml,Voigt (Sonthofen) ,Voigt (Sonthofen),fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_094.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_097.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Bastian,BT_10_099.xml,Bastian ,Bastian,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_100.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Struck,BT_10_101.xml,Struck ,Struck,FDP,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Müller (München),BT_10_102.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Eimer (Fürth),BT_10_104.xml,Elmer (Fürth) ,Eimer (Fürth),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_107.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_108.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_113.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_114.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Büchler (Hof),BT_10_116.xml,Büchler (Hof} ,Büchler (Hof),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_117.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Müller (München),BT_10_120.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Handlos,BT_10_122.xml,Handlos ,Handlos,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_129.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Müller (München),BT_10_132.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_134.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Handlos,BT_10_137.xml,Handlos ,Handlos,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_138.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Gattermann,BT_10_141.xml,Gattermann ,Gattermann,SPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Clemens,BT_10_142.xml,Clemens ,Clemens,SPD,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_143.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Fiebig,BT_10_148.xml,FIebIg ,Fiebig,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Hamm-Brücher,BT_10_148.xml,Hamm-Brücher ,Hamm-Brücher,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_148.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Kleinert (Marburg),BT_10_148.xml,KleInert (Marburg) ,Kleinert (Marburg),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Diederich (Berlin),BT_10_149.xml,DIederIch (Berlin) ,Diederich (Berlin),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Müller (Bremen),BT_10_152.xml,Millier (Bremen) ,Müller (Bremen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Handlos,BT_10_153.xml,Handlos ,Handlos,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jäger (Wangen),BT_10_155.xml,Jäger (Wangen) ,Jäger (Wangen),CSU/CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_159.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_162.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Hirsch,BT_10_163.xml,Hirsch ,Hirsch,SPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Fischer (Homburg),BT_10_165.xml,Fischer . (Homburg) ,Fischer (Homburg),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Handlos,BT_10_167.xml,Handlos ,Handlos,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hornhues,BT_10_168.xml,Homhues ,Hornhues,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_169.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_172.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Bastian,BT_10_174.xml,Bastian ,Bastian,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Handlos,BT_10_178.xml,Handlos ,Handlos,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Müller (Bremen),BT_10_181.xml,Müller (Bremen ,Müller (Bremen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Eimer (Fürth),BT_10_183.xml,Eimer (Fürth) ,Eimer (Fürth),FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_187.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Bastian,BT_10_187.xml,Bastian ,Bastian,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 BastIan,BT_10_187.xml,BastIan ,BastIan,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Laufs,BT_10_187.xml,Laufs ,Laufs,CSU/CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Eimer (Fürth),BT_10_187.xml,Elmer (Fürth) ,Eimer (Fürth),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_191.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Kohn,BT_10_191.xml,Kohn ,Kohn,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hirsch,BT_10_192.xml,Hirsch ,Hirsch,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Stahl (Kempen),BT_10_193.xml,Stahl (Kempen) ,Stahl (Kempen),CDU/CSU,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -2135,12 +1857,14 @@ Diederich (Berlin),BT_10_194.xml,DIederich (Berlin) ,Diederich (Berlin),-,-,-,-,
 Schwenk (Stade),BT_10_196.xml,Schenk (Stade) ,Schwenk (Stade),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Weng (Gerlingen),BT_10_198.xml,Weng (Gerlingen) ,Weng (Gerlingen),FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Paull,BT_10_200.xml,Paull . ,Paull,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_203.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Handlos,BT_10_204.xml,Handlos ,Handlos,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Bastian,BT_10_204.xml,Bastian ,Bastian,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Voigt (Sonthofen),BT_10_205.xml,Voigt (Sonthofen) ,Voigt (Sonthofen),fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Rawe,BT_10_209.xml,Rawe ,Rawe,SPD,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Müller (München),BT_10_210.xml,Müller ,Müller (München),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Handlos,BT_10_210.xml,Handlos ,Handlos,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_210.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Klejdzinski,BT_10_210.xml,KleJdzInskI ,Klejdzinski,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Voigt (Sonthofen),BT_10_210.xml,Voigt (Sonthofen) ,Voigt (Sonthofen),fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Handlos,BT_10_211.xml,Handlos ,Handlos,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -2151,10 +1875,16 @@ Voigt (Sonthofen),BT_10_225.xml,Voigt (Sonthofen) ,Voigt (Sonthofen),fraktionslo
 Klejdzinski,BT_10_225.xml,KleJdzInskI ,Klejdzinski,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Hönes,BT_10_225.xml,Hönes ,Hönes,DIE GRÜNEN,GRUENE,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Eimer (Fürth),BT_10_225.xml,Elmer (Fürth) ,Eimer (Fürth),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_228.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Eimer (Fürth),BT_10_232.xml,Elmer (Fürth) ,Eimer (Fürth),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_235.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Wolfgramm (Göttingen),BT_10_235.xml,Wolfgramm (Göttingen) ,Wolfgramm (Göttingen),FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Eimer (Fürth),BT_10_235.xml,Elmer (Fürth) ,Eimer (Fürth),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_237.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_238.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Eimer (Fürth),BT_10_238.xml,Elmer (Fürth) ,Eimer (Fürth),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_242.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Berger (Lahnstein),BT_10_243.xml,Berger ,Berger (Lahnstein),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Wieczorek (Duisburg),BT_10_248.xml,WIeczorek (Duisburg) ,Wieczorek (Duisburg),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Wittmann (Tännesberg),BT_10_253.xml,WIttmann (Tännesberg) ,Wittmann (Tännesberg),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Hamm-Brücher,BT_10_255.xml,Hamm-Brücher ,Hamm-Brücher,FPD,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -2186,7 +1916,7 @@ Wüppesahl,BT_11_078.xml,Wüppesahl ,Wüppesahl,fraktionslos,Fraktionslos,-,-,-,
 Volkmar Köhler,BT_11_080.xml,Köhler,Volkmar Köhler,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Wüppesahl,BT_11_080.xml,Wüppesahl ,Wüppesahl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wüppesahl,BT_11_082.xml,Wüppesahl ,Wüppesahl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Fuchs (Verl),BT_11_082.xml,Fuchs (Veri) ,﻿Fuchs (Verl),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Fuchs (Verl),BT_11_082.xml,Fuchs (Veri) ,Fuchs (Verl),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Wüppesahl,BT_11_083.xml,Wüppesahl ,Wüppesahl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wüppesahl,BT_11_084.xml,Wüppesahl ,Wüppesahl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Bauer (Euskirchen),BT_11_085.xml,Bauer ,Bauer (Euskirchen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -2229,7 +1959,7 @@ Wüppesahl,BT_11_135.xml,-,-,fraktionslos,Fraktionslos,-,-,-,-,FALSE,FALSE,TRUE,
 Wüppesahl,BT_11_135.xml,Wüppesahl ,Wüppesahl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Garbe,BT_11_136.xml,Garbe ,Garbe,GRüNE,GRUENE,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wüppesahl,BT_11_137.xml,Wüppesahl ,Wüppesahl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Börnsen (Bönstrup),BT_11_137.xml,Bömsen (Bönstrup) ,﻿Börnsen (Bönstrup),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Börnsen (Bönstrup),BT_11_137.xml,Bömsen (Bönstrup) ,Börnsen (Bönstrup),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Wüppesahl,BT_11_138.xml,Wüppesahl ,Wüppesahl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Pfarr,BT_11_142.xml,Frau Dr. Pfarr,Pfarr,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Wüppesahl,BT_11_142.xml,Wüppesahl ,Wüppesahl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -2334,7 +2064,7 @@ Köhler (Hainspitz),BT_11_234.xml,Köhler ,Köhler (Hainspitz),-,-,-,-,-,-,FALSE
 Wüppesahl,BT_11_235.xml,Wüppesahl ,Wüppesahl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Unruh,BT_11_236.xml,Unruh ,Unruh,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wüppesahl,BT_11_236.xml,Wüppesahl ,Wüppesahl,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Günther Krause (Börgerende),BT_12_006.xml,Krause (Börgerende) ,﻿Günther Krause (Börgerende),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Günther Krause (Börgerende),BT_12_006.xml,Krause (Börgerende) ,Günther Krause (Börgerende),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Günther Müller,BT_12_009.xml,Müller ,Günther Müller,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Steiner,BT_12_011.xml,Steiner ,Steiner,CDU/CSU,SPD,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Adolf Roth (Gießen),BT_12_013.xml,Adolf Roth : (Gießen) ,Adolf Roth (Gießen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -2343,7 +2073,6 @@ Rudolf Karl Krause (Bonese),BT_12_015.xml,Rudolf Krause (Bonese) ,Rudolf Karl Kr
 Arne Börnsen (Ritterhude),BT_12_018.xml,Ame Börnsen (Ritterhude) ,Arne Börnsen (Ritterhude),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Klaus Lippold (Offenbach),BT_12_018.xml,Lippold (Offenbach) ,Klaus Lippold (Offenbach),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Heinrich L. Kolb,BT_12_019.xml,Heinrich Kolb ,Heinrich L. Kolb,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_020.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ingrid Köppe,BT_12_021.xml,Ingrid Köppe ,Ingrid Köppe,Bündnis 90/GRÜNE,GRUENE,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Rudolf Karl Krause (Bonese),BT_12_021.xml,Rudolf Krause (Bonese) ,Rudolf Karl Krause (Bonese),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Heinrich L. Kolb,BT_12_021.xml,Heinrich Kolb ,Heinrich L. Kolb,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -2373,7 +2102,6 @@ Echternach,BT_12_041.xml,Jürgen Echternach,Echternach,-,-,-,-,-,-,FALSE,TRUE,FA
 Ingrid Köppe,BT_12_041.xml,Ingrid Köppe ,Ingrid Köppe,Bündnis 90/GRÜNE,GRUENE,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ingrid Köppe,BT_12_042.xml,Ingrid Köppe ,Ingrid Köppe,Bündnis 90/GRÜNE,GRUENE,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_043.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_043.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_044.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Joachim Graf von Schönburg-Glauchau,BT_12_044.xml,Joachim Graf von Schönburg-Glauchau ,Joachim Graf von Schönburg-Glauchau,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Klaus Lippold (Offenbach),BT_12_045.xml,Lippold (Offenbach) ,Klaus Lippold (Offenbach),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -2381,17 +2109,15 @@ Peter H. Carstensen (Nordstrand),BT_12_046.xml,Peter Harry Carstensen (Nordstran
 Ortwin Lowack,BT_12_046.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ulla Schmidt (Aachen),BT_12_047.xml,Ursula Schmidt (Aachen) ,Ulla Schmidt (Aachen),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Echternach,BT_12_049.xml,Jürgen Echternach,Echternach,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_049.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_049.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_050.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Arne Börnsen (Ritterhude),BT_12_050.xml,Arne Bömsen (Ritterhude) ,Arne Börnsen (Ritterhude),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Klaus Lippold (Offenbach),BT_12_052.xml,Lippold (Offenbach) ,Klaus Lippold (Offenbach),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Ingrid Köppe,BT_12_052.xml,Ingrid Köppe ,Ingrid Köppe,Bündnis 90/GRÜNE,GRUENE,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Dieter-Julius Cronenberg,BT_12_052.xml,Dieter-Julius-Cronenberg,﻿Dieter-Julius Cronenberg,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Dieter-Julius Cronenberg,BT_12_052.xml,Dieter-Julius-Cronenberg,Dieter-Julius Cronenberg,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_053.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ingrid Köppe,BT_12_054.xml,Ingrid Köppe ,Ingrid Köppe,Bündnis 90/GRÜNE,GRUENE,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Konrad Weiß,BT_12_054.xml,Konrad Weiß (Berlin ,Konrad Weiß,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_056.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ingrid Köppe,BT_12_057.xml,Ingrid Köppe ,Ingrid Köppe,Bündnis 90/GRÜNE,GRUENE,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ingrid Köppe,BT_12_057.xml,Ingrid Köppe ,Ingrid Köppe,Bündnis 90/GRUNE,GRUENE,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_057.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -2408,7 +2134,6 @@ Ingrid Köppe,BT_12_064.xml,Ingrid Köppe ,Ingrid Köppe,Bündnis 90/GRÜNE,GRUE
 Bernd Henn,BT_12_065.xml,Bernd Henn ,Bernd Henn,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Klaus Lippold (Offenbach),BT_12_067.xml,Lippold (Offenbach) ,Klaus Lippold (Offenbach),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Echternach,BT_12_069.xml,Jürgen Echternach,Echternach,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_069.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_070.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Echternach,BT_12_070.xml,Jürgen Echternach,Echternach,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Joachim Schmidt (Halsbrücke),BT_12_070.xml,Joachim Schmidt (Halsbrücke) ,Joachim Schmidt (Halsbrücke),CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -2416,7 +2141,6 @@ Ortwin Lowack,BT_12_072.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionsl
 Ortwin Lowack,BT_12_073.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ingrid Köppe,BT_12_073.xml,Ingrid Köppe ,Ingrid Köppe,Bündnis 90/GRÜNE,GRUENE,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_076.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_078.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_078.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Heinz Werner Hübner,BT_12_078.xml,Heinz Werner Hübner ,Heinz Werner Hübner,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jürgen Türk,BT_12_078.xml,Jürgen Türk ,Jürgen Türk,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -2519,7 +2243,6 @@ Gisela Babel,BT_12_091.xml,Gisela Babel ,Gisela Babel,F.D.P.,FDP,-,-,-,-,TRUE,FA
 Josef Grünbeck,BT_12_091.xml,Josef Grünbeck ,Josef Grünbeck,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jürgen Türk,BT_12_091.xml,Jürgen Türk ,Jürgen Türk,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burkhard Zurheide,BT_12_091.xml,Burkhard Zurheide ,Burkhard Zurheide,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_091.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jörg van Essen,BT_12_091.xml,Jörg van Essen ,Jörg van Essen,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Georg Gallus,BT_12_092.xml,Georg Gallus ,Georg Gallus,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Günther Bredehorn,BT_12_092.xml,Günther Bredehorn ,Günther Bredehorn,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -2542,7 +2265,6 @@ Uta Würfel,BT_12_093.xml,Uta Würfel ,Uta Würfel,F.D.P.,FDP,-,-,-,-,TRUE,FALSE
 Burkhard Hirsch,BT_12_093.xml,Burkhard Hirsch ,Burkhard Hirsch,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_094.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wolfgang Lüder,BT_12_094.xml,Wolfgang Lüder ,Wolfgang Lüder,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_094.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Uta Würfel,BT_12_094.xml,Uta Würfel ,Uta Würfel,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burkhard Hirsch,BT_12_094.xml,Burkhard Hirsch ,Burkhard Hirsch,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Dieter Thomae,BT_12_094.xml,Dieter Thomae ,Dieter Thomae,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -2592,7 +2314,6 @@ Lisa Peters,BT_12_098.xml,Lisa Peters ,Lisa Peters,F.D.P.,FDP,-,-,-,-,TRUE,FALSE
 Josef Grünbeck,BT_12_098.xml,Josef Grünbeck ,Josef Grünbeck,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jürgen Koppelin,BT_12_098.xml,Jürgen Koppelin ,Jürgen Koppelin,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wolfgang Lüder,BT_12_098.xml,Wolfgang Lüder ,Wolfgang Lüder,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_098.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Bruno Menzel,BT_12_098.xml,Bruno Menzel ,Bruno Menzel,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Günther Friedrich Nolting,BT_12_098.xml,Günther Friedrich Nolting ,Günther Friedrich Nolting,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Olaf Feldmann,BT_12_098.xml,Olaf Feldmann ,Olaf Feldmann,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -2635,12 +2356,12 @@ Joachim Schmidt (Halsbrücke),BT_12_100.xml,Joachim Schmidt (Halsbrücke) ,Joach
 Jürgen Schmieder,BT_12_100.xml,Jürgen Schmieder ,Jürgen Schmieder,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ulrich Briefs,BT_12_100.xml,Ulrich Briefs ,Ulrich Briefs,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Walter Hitschler,BT_12_100.xml,Walter Hitschler ,Walter Hitschler,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Dieter-Julius Cronenberg,BT_12_100.xml,Dieter-Julius-Cronenberg,﻿Dieter-Julius Cronenberg,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Dieter-Julius Cronenberg,BT_12_100.xml,Dieter-Julius-Cronenberg,Dieter-Julius Cronenberg,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Hermann Otto Solms,BT_12_101.xml,Hermann Otto Solms ,Hermann Otto Solms,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ulrich Irmer,BT_12_101.xml,Ulrich Irmer ,Ulrich Irmer,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Werner Hoyer,BT_12_101.xml,Werner Hoyer ,Werner Hoyer,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_101.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Dieter-Julius Cronenberg,BT_12_101.xml,Dieter-Julius-Cronenberg,﻿Dieter-Julius Cronenberg,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Dieter-Julius Cronenberg,BT_12_101.xml,Dieter-Julius-Cronenberg,Dieter-Julius Cronenberg,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Wolfgang Weng (Gerlingen),BT_12_102.xml,Wolfgang Weng (Gerlingen) ,Wolfgang Weng (Gerlingen),F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ina Albowitz,BT_12_102.xml,Ina Albowitz ,Ina Albowitz,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ulrich Briefs,BT_12_102.xml,Ulrich Briefs ,Ulrich Briefs,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -2702,7 +2423,6 @@ Gisela Babel,BT_12_109.xml,Gisela Babel ,Gisela Babel,F.D.P.,FDP,-,-,-,-,TRUE,FA
 Echternach,BT_12_109.xml,Jürgen Echternach,Echternach,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Jürgen Koppelin,BT_12_109.xml,Jürgen Koppelin ,Jürgen Koppelin,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ulrich Irmer,BT_12_109.xml,Ulrich Irmer ,Ulrich Irmer,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_109.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Otto Graf Lambsdorff,BT_12_110.xml,Otto Graf Lambsdorff ,Otto Graf Lambsdorff,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Helmut Haussmann,BT_12_110.xml,Helmut Haussmann ,Helmut Haussmann,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Cornelia von Teichman,BT_12_110.xml,Cornelia von Teichman ,Cornelia von Teichman,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -2801,7 +2521,6 @@ Karl-Hans Laermann,BT_12_120.xml,Karl-Hans Laermann ,Karl-Hans Laermann,F.D.P.,F
 Josef Grünbeck,BT_12_120.xml,Josef Grünbeck ,Josef Grünbeck,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wolfgang Lüder,BT_12_120.xml,Wolfgang Lüder ,Wolfgang Lüder,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Norbert Eimer (Fürth),BT_12_120.xml,Norbert Eimer (Fürth) ,Norbert Eimer (Fürth),F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_120.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burkhard Hirsch,BT_12_120.xml,Burkhard Hirsch ,Burkhard Hirsch,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jürgen Koppelin,BT_12_120.xml,Jürgen Koppelin ,Jürgen Koppelin,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Margret Funke-Schmitt-Rink,BT_12_120.xml,Margret Funke-Schmitt-Rink ,Margret Funke-Schmitt-Rink,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -2832,7 +2551,7 @@ Uta Würfel,BT_12_122.xml,Uta Würfel ,Uta Würfel,F.D.P.,FDP,-,-,-,-,TRUE,FALSE
 Norbert Eimer (Fürth),BT_12_122.xml,Norbert Eimer (Fürth) ,Norbert Eimer (Fürth),F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hermann Otto Solms,BT_12_123.xml,Hermann Otto Solms ,Hermann Otto Solms,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Otto Graf Lambsdorff,BT_12_123.xml,Otto Graf Lambsdorff ,Otto Graf Lambsdorff,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-﻿Dieter-Julius Cronenberg,BT_12_123.xml,Dieter-Julius-Cronenberg,﻿Dieter-Julius Cronenberg,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+Dieter-Julius Cronenberg,BT_12_123.xml,Dieter-Julius-Cronenberg,Dieter-Julius Cronenberg,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_123.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ulrich Briefs,BT_12_123.xml,Ulrich Briefs ,Ulrich Briefs,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Sigrid Hoth,BT_12_123.xml,Sigrid Hoth ,Sigrid Hoth,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -2852,7 +2571,6 @@ Ulrich Briefs,BT_12_125.xml,Ulrich Briefs ,Ulrich Briefs,fraktionslos,Fraktionsl
 Ina Albowitz,BT_12_125.xml,Ina Albowitz ,Ina Albowitz,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerhard Schüßler,BT_12_125.xml,Gerhard Schüßler ,Gerhard Schüßler,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Detlef Kleinert (Hannover),BT_12_125.xml,Detlef Kleinert (Hannover) ,Detlef Kleinert (Hannover),F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_125.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Günther Friedrich Nolting,BT_12_125.xml,Günther Friedrich Nolting ,Günther Friedrich Nolting,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ulrich Irmer,BT_12_126.xml,Ulrich Irmer ,Ulrich Irmer,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Helmut Haussmann,BT_12_126.xml,Helmut Haussmann ,Helmut Haussmann,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -2877,7 +2595,6 @@ Cornelia Schmalz-Jacobsen,BT_12_128.xml,Cornelia Schmalz-Jacobsen ,Cornelia Schm
 Ulrich Briefs,BT_12_128.xml,Ulrich Briefs ,Ulrich Briefs,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_128.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burkhard Hirsch,BT_12_128.xml,Burkhard Hirsch ,Burkhard Hirsch,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_128.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Margret Funke-Schmitt-Rink,BT_12_128.xml,Margret Funke-Schmitt-Rink ,Margret Funke-Schmitt-Rink,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jürgen Koppelin,BT_12_128.xml,Jürgen Koppelin ,Jürgen Koppelin,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gerhart Rudolf Baum,BT_12_128.xml,Gerhart Rudolf Baum ,Gerhart Rudolf Baum,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -2939,7 +2656,6 @@ Arne Börnsen (Ritterhude),BT_12_132.xml,Ame Börnsen (Ritterhude) ,Arne Börnse
 Ina Albowitz,BT_12_132.xml,Ina Albowitz ,Ina Albowitz,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wolfgang Lüder,BT_12_133.xml,Wolfgang Lüder ,Wolfgang Lüder,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_133.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_133.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Werner Hoyer,BT_12_134.xml,Werner Hoyer ,Werner Hoyer,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Helmut Haussmann,BT_12_134.xml,Helmut Haussmann ,Helmut Haussmann,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ulrich Briefs,BT_12_134.xml,Ulrich Briefs ,Ulrich Briefs,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -3008,7 +2724,6 @@ Cornelia von Teichman,BT_12_140.xml,Cornelia von Teichman ,Cornelia von Teichman
 Dirk Hansen,BT_12_140.xml,Dirk Hansen ,Dirk Hansen,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burkhard Zurheide,BT_12_140.xml,Burkhard Zurheide ,Burkhard Zurheide,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Birgit Homburger,BT_12_140.xml,Birgit Homburger ,Birgit Homburger,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_140.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Helmut Schäfer (Mainz),BT_12_140.xml,Helmut Schäfer (Mainz) ,Helmut Schäfer (Mainz),F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_140.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Olaf Feldmann,BT_12_140.xml,Olaf Feldmann ,Olaf Feldmann,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -3142,7 +2857,6 @@ Cornelia Schmalz-Jacobsen,BT_12_155.xml,Cornelia Schmalz-Jacobsen ,Cornelia Schm
 Torsten Wolfgramm (Göttingen),BT_12_155.xml,Torsten Wolfgramm (Göttingen) ,Torsten Wolfgramm (Göttingen),F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_155.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burkhard Zurheide,BT_12_155.xml,Burkhard Zurheide ,Burkhard Zurheide,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_155.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Klaus Beckmann,BT_12_155.xml,Klaus Beckmann ,Klaus Beckmann,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jochaim Graf von Schönburg-Glauchau,BT_12_155.xml,Jochaim Graf von Schönburg-Glauchau ,Jochaim Graf von Schönburg-Glauchau,CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gisela Babel,BT_12_155.xml,Gisela Babel ,Gisela Babel,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -3159,7 +2873,6 @@ Günther Bredehorn,BT_12_157.xml,Günther Bredehorn ,Günther Bredehorn,F.D.P.,F
 Peter H. Carstensen (Nordstrand),BT_12_157.xml,Peter Harry Carstensen (Nordstrand) ,Peter H. Carstensen (Nordstrand),-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_157.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Echternach,BT_12_157.xml,Jürgen Echternach,Echternach,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_157.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burkhard Hirsch,BT_12_157.xml,Burkhard Hirsch ,Burkhard Hirsch,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Echternach,BT_12_158.xml,Jürgen Echternach,Echternach,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Günther Bredehorn,BT_12_158.xml,Günther Bredehorn ,Günther Bredehorn,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -3369,9 +3082,6 @@ Rudolf Karl Krause (Bonese),BT_12_176.xml,Rudolf Karl Krause (Bonese) ,Rudolf Ka
 Olaf Feldmann,BT_12_176.xml,Olaf Feldmann ,Olaf Feldmann,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wolfgang Lüder,BT_12_176.xml,Wolfgang Lüder ,Wolfgang Lüder,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jürgen Türk,BT_12_176.xml,Jürgen Türk ,Jürgen Türk,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Dieter Thomae,BT_12_176.xml,Dieter Thomae ,Dieter Thomae,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Gerhart Rudolf Baum,BT_12_176.xml,Gerhart Rudolf Baum ,Gerhart Rudolf Baum,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Manfred Richter (Bremerhaven),BT_12_176.xml,Manfred Richter (Bremerhaven) ,Manfred Richter (Bremerhaven),F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wolfgang Mischnick,BT_12_177.xml,Wolfgang Mischnick ,Wolfgang Mischnick,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burkhard Hirsch,BT_12_177.xml,Burkhard Hirsch ,Burkhard Hirsch,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ulrich Irmer,BT_12_177.xml,Ulrich Irmer ,Ulrich Irmer,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -3489,7 +3199,6 @@ Jürgen Koppelin,BT_12_189.xml,Jürgen Koppelin ,Jürgen Koppelin,F.D.P.,FDP,-,-
 Heinz-Dieter Hackel,BT_12_189.xml,Heinz-Dieter Hackel ,Heinz-Dieter Hackel,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Günther Bredehom,BT_12_189.xml,Günther Bredehom ,Günther Bredehom,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Günther Bredehorn,BT_12_189.xml,Günther Bredehorn ,Günther Bredehorn,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_189.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jürgen Timm,BT_12_189.xml,Jürgen Timm ,Jürgen Timm,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Norbert Eimer (Fürth),BT_12_189.xml,Norbert Eimer (Fürth) ,Norbert Eimer (Fürth),F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Walter Hitschler,BT_12_189.xml,Walter Hitschler ,Walter Hitschler,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -3573,7 +3282,6 @@ Echternach,BT_12_198.xml,Jürchen Echternach,Echternach,-,-,-,-,-,-,FALSE,TRUE,F
 Ortwin Lowack,BT_12_198.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Klaus Röhl,BT_12_198.xml,Klaus Röhl ,Klaus Röhl,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Klaus Beckmann,BT_12_199.xml,Klaus Beckmann ,Klaus Beckmann,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_199.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Klaus Röhl,BT_12_199.xml,Klaus Röhl ,Klaus Röhl,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Horst Friedrich,BT_12_199.xml,Horst Friedrich ,Horst Friedrich,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ekkehard Gries,BT_12_199.xml,Ekkehard Gries ,Ekkehard Gries,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -3615,7 +3323,6 @@ Walter Hitschler,BT_12_202.xml,Walter Hitschler ,Walter Hitschler,F.D.P.,FDP,-,-
 Karl-Hans Laermann,BT_12_202.xml,Karl-Hans Laermann ,Karl-Hans Laermann,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Christoph Schnittler,BT_12_202.xml,Christoph Schnittler ,Christoph Schnittler,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Joachim Schmidt (Halsbrücke),BT_12_202.xml,Joachim Schmidt (Halsbrücke) ,Joachim Schmidt (Halsbrücke),CDU/ CSU,CDU/CSU,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_202.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burkhard Hirsch,BT_12_202.xml,Burkhard Hirsch ,Burkhard Hirsch,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ingrid Köppe,BT_12_202.xml,Ingrid Köppe ,Ingrid Köppe,BÜNDNIS 90/DIE GRÜNEN,GRUENE,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Dieter Thomae,BT_12_202.xml,Dieter Thomae ,Dieter Thomae,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -3653,7 +3360,6 @@ Wolfgang Lüder,BT_12_206.xml,Wolfgang Lüder ,Wolfgang Lüder,F.D.P.,FDP,-,-,-,
 Dirk Hansen,BT_12_207.xml,Dirk Hansen ,Dirk Hansen,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Günther Bredehorn,BT_12_207.xml,Günther Bredehorn ,Günther Bredehorn,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wolfgang Lüder,BT_12_207.xml,Wolfgang Lüder ,Wolfgang Lüder,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_207.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Josef Grünbeck,BT_12_207.xml,Josef Grünbeck ,Josef Grünbeck,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burkhard Hirsch,BT_12_207.xml,Burkhard Hirsch ,Burkhard Hirsch,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Uta Würfel,BT_12_207.xml,Uta Würfel ,Uta Würfel,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -3711,7 +3417,6 @@ Gisela Babel,BT_12_213.xml,Gisela Babel ,Gisela Babel,F.D.P.,FDP,-,-,-,-,TRUE,FA
 Rudolf Karl Krause (Bonese),BT_12_213.xml,Rudolf Karl Krause (Bonese) ,Rudolf Karl Krause (Bonese),fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ulrich Briefs,BT_12_213.xml,Ulrich Briefs ,Ulrich Briefs,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_213.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_213.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jürgen Koppelin,BT_12_213.xml,Jürgen Koppelin ,Jürgen Koppelin,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ulrich Irmer,BT_12_213.xml,Ulrich Irmer ,Ulrich Irmer,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Klaus Beckmann,BT_12_213.xml,Klaus Beckmann ,Klaus Beckmann,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -3761,7 +3466,6 @@ Dirk Hansen,BT_12_218.xml,Dirk Hansen ,Dirk Hansen,F.D.P.,FDP,-,-,-,-,TRUE,FALSE
 Günther Bredehom,BT_12_218.xml,Günther Bredehom ,Günther Bredehom,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ulrich Heinrich,BT_12_218.xml,Ulrich Heinrich ,Ulrich Heinrich,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jürgen Koppelin,BT_12_218.xml,Jürgen Koppelin ,Jürgen Koppelin,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_218.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burkhard Hirsch,BT_12_218.xml,Burkhard Hirsch ,Burkhard Hirsch,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Carl-Ludwig Thiele,BT_12_218.xml,Carl-Ludwig Thiele ,Carl-Ludwig Thiele,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hermann Otto Solms,BT_12_218.xml,Hermann Otto Solms ,Hermann Otto Solms,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -3825,13 +3529,11 @@ Rudolf Karl Krause (Bonese),BT_12_223.xml,Rudolf Karl Krause (Bonese) ,Rudolf Ka
 Ulrich Briefs,BT_12_223.xml,Ulrich Briefs ,Ulrich Briefs,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Marita Sehn,BT_12_223.xml,Marita Sehn ,Marita Sehn,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Manita Sehn,BT_12_223.xml,Manita Sehn ,Manita Sehn,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_223.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Dieter-Julius Cronenberg (Arnsberg),BT_12_223.xml,Dieter-Julius Cronenberg (Arnsberg) ,Dieter-Julius Cronenberg (Arnsberg),F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Josef Grünbeck,BT_12_224.xml,Josef Grünbeck ,Josef Grünbeck,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jürgen Koppelin,BT_12_224.xml,Jürgen Koppelin ,Jürgen Koppelin,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Burkhard Hirsch,BT_12_224.xml,Burkhard Hirsch ,Burkhard Hirsch,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Ortwin Lowack,BT_12_224.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_224.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Walter Hitschler,BT_12_225.xml,Walter Hitschler ,Walter Hitschler,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Werner Hoyer,BT_12_225.xml,Werner Hoyer ,Werner Hoyer,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wolfgang Lüder,BT_12_225.xml,Wolfgang Lüder ,Wolfgang Lüder,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -3912,7 +3614,6 @@ Ortwin Lowack,BT_12_231.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionsl
 Ulrich Irmer,BT_12_231.xml,Ulrich Irmer ,Ulrich Irmer,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jürgen Koppelin,BT_12_232.xml,Jürgen Koppelin ,Jürgen Koppelin,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Manfred Richter (Bremerhaven),BT_12_232.xml,Manfred Richter (Bremerhaven) ,Manfred Richter (Bremerhaven),F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_232.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Echternach,BT_12_232.xml,Jürgen Echternach,Echternach,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Jürgen Timm,BT_12_232.xml,Jürgen Timm ,Jürgen Timm,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Christoph Schnittler,BT_12_232.xml,Christoph Schnittler ,Christoph Schnittler,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -3950,7 +3651,6 @@ Ortwin Lowack,BT_12_234.xml,Ortwin Lowack ,Ortwin Lowack,fraktionslos,Fraktionsl
 Rudolf Karl Krause (Bonese),BT_12_234.xml,Rudolf Karl Krause (Bonese) ,Rudolf Karl Krause (Bonese),fraktionslos,Fraktionslos,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Paul K. Friedhoff,BT_12_234.xml,Paul K. Friedhoff ,Paul K. Friedhoff,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Uta Würfel,BT_12_235.xml,Uta Würfel ,Uta Würfel,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
-Reinhard Göhner,BT_12_235.xml,-,-,NA,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Manfred Richter (Bremerhaven),BT_12_235.xml,Manfred Richter (Bremerhaven) ,Manfred Richter (Bremerhaven),F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Otto Graf Lambsdorff,BT_12_235.xml,Otto Graf Lambsdorff ,Otto Graf Lambsdorff,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hermann Rind,BT_12_235.xml,Hermann Rind ,Hermann Rind,F.D.P.,FDP,-,-,-,-,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -4659,7 +4359,6 @@ Rainer Ortleb,BT_13_096.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,
 Burkhard Hirsch,BT_13_096.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Helmut Haussmann,BT_13_096.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gisela Babel,BT_13_096.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Günther Friedrich Nolting,BT_13_096.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Jürgen Koppelin,BT_13_097.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Roland Kohn,BT_13_097.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Guido Westerwelle,BT_13_097.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -5159,12 +4858,6 @@ Karsten Voigt,BT_13_184.xml,Karsten D. Voigt (Frankfurt),Karsten Voigt,-,-,-,-,-
 Jörg van Essen,BT_13_184.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Karlheinz Guttmacher,BT_13_184.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hildebrecht Braun (Augsburg),BT_13_184.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Otto Graf Lambsdorff,BT_13_184.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Ina Albowitz,BT_13_184.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Klaus Röhl,BT_13_184.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Uwe Lühr,BT_13_184.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Gisela Babel,BT_13_184.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Irmgard Schwaetzer,BT_13_184.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Helmut Haussmann,BT_13_185.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Klaus Lippold,BT_13_185.xml,Lippold (Offenbach),Klaus Lippold,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 Birgit Homburger,BT_13_185.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -6875,11 +6568,6 @@ Wolfgang Gerhardt,BT_14_183.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FA
 Ina Lenke,BT_14_183.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Detlef Parr,BT_14_183.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Rainer Brüderle,BT_14_183.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Kolb,BT_14_183.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Rainer Funke,BT_14_183.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Max Stadler,BT_14_183.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Gudrun Kopp,BT_14_183.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Jörg van Essen,BT_14_183.xml,-,-,F.D.P.,FDP,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Joachim Schmidt (Halsbrücke),BT_14_200.xml,-,-,CDU/ CSU,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Hansgeorg Hauser (Rednitzhembach),BT_14_203.xml,-,-,CDU/ CSU,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Carl-Detlev Freiherr von Hammerstein,BT_14_203.xml,-,-,CDU/ CSU,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -7164,6 +6852,15 @@ Petra Pau,BT_15_182.xml,-,-,fraktionslos,Fraktionslos,-,-,-,-,FALSE,FALSE,TRUE,F
 Siegfried Kauder (Villingen-Schwenningen),BT_15_183.xml,-,-,CDU/ CSU,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Gesine Lötzsch,BT_15_183.xml,-,-,fraktionslos,Fraktionslos,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Petra Pau,BT_15_183.xml,-,-,fraktionslos,Fraktionslos,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+Gesine Lötzsch,BT_15_184.xml,-,-,fraktionslos,Fraktionslos,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+Petra Pau,BT_15_184.xml,-,-,fraktionslos,Fraktionslos,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+Siegfried Kauder (Villingen-Schwenningen),BT_15_184.xml,-,-,CDU/ CSU,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+Gesine Lötzsch,BT_15_185.xml,-,-,fraktionslos,Fraktionslos,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+Petra Pau,BT_15_186.xml,-,-,fraktionslos,Fraktionslos,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+Gesine Lötzsch,BT_15_186.xml,-,-,fraktionslos,Fraktionslos,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+Petra Pau,BT_15_187.xml,-,-,fraktionslos,Fraktionslos,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+Martin Hohmann,BT_15_187.xml,-,-,fraktionslos,Fraktionslos,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+Gesine Lötzsch,BT_15_187.xml,-,-,fraktionslos,Fraktionslos,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Dagmar Enkelmann,BT_16_001.xml,-,-,DIE LINKE.,DIE LINKE,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Siegfried Kauder (Villingen-Schwenningen),BT_16_008.xml,-,-,CDU/ CSU,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Karl-Theodor Freiherr zu Guttenberg,BT_16_009.xml,-,-,CDU/ CSU,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
@@ -7296,10 +6993,8 @@ Siegfried Kauder (Villingen-Schwenningen),BT_17_126.xml,-,-,CDU/ CSU,CDU/CSU,-,-
 Siegfried Kauder (Villingen-Schwenningen),BT_17_133.xml,-,-,CDU/ CSU,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Siegfried Kauder (Villingen-Schwenningen),BT_17_146.xml,-,-,CDU/ CSU,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Siegfried Kauder (Villingen-Schwenningen),BT_17_149.xml,-,-,CDU/ CSU,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Annette Groth,BT_17_188.xml,-,-,Die Linke,DIE LINKE,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Wolfgang Nekovi?,BT_17_237.xml,-,-,fraktionslos,Fraktionslos,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 Stephan Mayer (Altötting),BT_17_240.xml,-,-,CSU/CSU,CDU/CSU,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
-Wolfgang Nekovi?,BT_17_240.xml,-,-,fraktionslos,Fraktionslos,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 von der Leyen,BT_18_003.xml,Ursula von der Leyen,von der Leyen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Leyen,BT_18_004.xml,Ursula von der Leyen,von der Leyen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Leyen,BT_18_008.xml,Ursula von der Leyen,von der Leyen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
@@ -7323,7 +7018,6 @@ von der Leyen,BT_18_100.xml,Ursula von der Leyen,von der Leyen,-,-,-,-,-,-,FALSE
 von der Leyen,BT_18_120.xml,Ursula von der Leyen,von der Leyen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Leyen,BT_18_139.xml,Ursula von der Leyen,von der Leyen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Leyen,BT_18_142.xml,Ursula von der Leyen,von der Leyen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
-Annalena Baerbock,BT_18_144.xml,-,-,BÜNDNIS90/DIE GRÜNEN,BÜNDNIS 90/DIE GRÜNEN,-,-,-,-,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
 von der Leyen,BT_18_146.xml,Ursula von der Leyen,von der Leyen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Leyen,BT_18_149.xml,Ursula von der Leyen,von der Leyen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
 von der Leyen,BT_18_164.xml,Ursula von der Leyen,von der Leyen,-,-,-,-,-,-,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE

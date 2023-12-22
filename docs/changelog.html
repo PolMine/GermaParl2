@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>The GermaParl Corpus of Plenary Protocols (v2.0.1) - Documentation</title>
+  <title>Changelog | The GermaParl Corpus of Plenary Protocols (v2.0.1) - Documentation</title>
   <meta name="description" content="This document is the in-depth documentation of the GermaParl v2 corpus. The corpus has been prepared in the PolMine Project (http://polmine.github.io)." />
   <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="The GermaParl Corpus of Plenary Protocols (v2.0.1) - Documentation" />
+  <meta property="og:title" content="Changelog | The GermaParl Corpus of Plenary Protocols (v2.0.1) - Documentation" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="This document is the in-depth documentation of the GermaParl v2 corpus. The corpus has been prepared in the PolMine Project (http://polmine.github.io)." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="The GermaParl Corpus of Plenary Protocols (v2.0.1) - Documentation" />
+  <meta name="twitter:title" content="Changelog | The GermaParl Corpus of Plenary Protocols (v2.0.1) - Documentation" />
   
   <meta name="twitter:description" content="This document is the in-depth documentation of the GermaParl v2 corpus. The corpus has been prepared in the PolMine Project (http://polmine.github.io)." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="changelog.html"/>
+<link rel="prev" href="index.html"/>
+<link rel="next" href="overview.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -262,30 +262,53 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">The GermaParl Corpus of Plenary Protocols (v2.0.1) - Documentation</h1>
-<p class="author"><em>Andreas Blätte and Christoph Leonhardt</em></p>
-<p class="date"><em>Version 2023-12-22</em></p>
-</div>
-<div id="summary" class="section level1 unnumbered hasAnchor">
-<h1>Summary<a href="index.html#summary" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div class="blackbox">
+<div id="changelog" class="section level1 unnumbered hasAnchor">
+<h1>Changelog<a href="changelog.html#changelog" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="v2.0.1" class="section level2 unnumbered hasAnchor">
+<h2>v2.0.1<a href="changelog.html#v2.0.1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Major:</strong></p>
 <ul>
-<li><p>Corpus Version: v2.0.1</p></li>
-<li><p>Documentation Date: 2023-12-22</p></li>
-<li><p>Cite corpus as: Blaette, Andreas, &amp; Leonhardt, Christoph (2023). GermaParl Corpus of Plenary Protocols (v2.0.1) [Data set]. Zenodo. <a href="https://doi.org/10.5281/zenodo.10416536" class="uri">https://doi.org/10.5281/zenodo.10416536</a>.</p></li>
-<li><p>Cite documentation as: Blaette, Andreas, &amp; Leonhardt, Christoph (2023). The GermaParl Corpus of Plenary Protocols (v2.0.1) - Documentation. Version 2023-12-22. <a href="https://polmine.github.io/GermaParl2" class="uri">https://polmine.github.io/GermaParl2</a></p></li>
+<li>improved the detection of the end of debates to remove additional remaining appendices (issue <a href="https://github.com/PolMine/GermaParl2/issues/1">#1</a>)</li>
+<li>added missing speakers caused by missing line breaks (issue <a href="https://github.com/PolMine/GermaParl2/issues/2">#2</a>)</li>
+<li>improved agenda item recognition in the TEI/XML, in particular in LPs 15 to 17 (issue <a href="https://github.com/PolMine/GermaParl2/issues/5">#5</a>)</li>
+<li>improved stage annotation mechanism which sometimes resulted in very large paragraphs and missing speakers (issue <a href="https://github.com/PolMine/GermaParl2/issues/6">#6</a>)</li>
+<li>included four additional sessions in LP 15 (see issue <a href="https://github.com/PolMine/GermaParl2/issues/7">#7</a>)</li>
+<li>improved recognition of speakers of the federal council with additional and adjusted regular expressions</li>
 </ul>
-</div>
+<p><strong>Minor:</strong></p>
+<ul>
+<li>changes to the PDF processing pipeline (improved margins for text extraction, modified regular expressions for end of debates)</li>
+<li>new regular expressions for stage annotation (e.g. “Anlage”, interrupted sessions)</li>
+<li>more meaningful “position” attribute for guest speakers (in TEI/XML)</li>
+<li>minor additions to protocol-specific preprocessing functions</li>
+<li>removed literal “NA” at the end of lines which occurred due to false concatenation in LPs 13-18</li>
+<li>improved stage annotation in LP 19</li>
+<li>speakers of regional states now consistently have role “federal_council” instead of “misc”</li>
+<li>in TEI/XML: speakers in LP 19 have attribute “position” now to match earlier legislative periods. Its value is always “NA”</li>
+<li>improved concatenation of words split by line breaks</li>
+<li>fixed false assignment of some governmental or presidential speakers to a parliamentary group. Their parliamentary group is set to “NA” now</li>
+<li>adjustments in speaker metadata (corrected party assignments, addressed a speaker mismatch)</li>
+</ul>
+<p><strong>Protocol specific changes:</strong></p>
+<ul>
+<li>01/019: added accidentally removed second part of the interrupted session (issue <a href="https://github.com/PolMine/GermaParl2/issues/3">#3</a>)</li>
+<li>02/101: removed misplaced attachment</li>
+<li>13/001: specific expression for “Rita Süssmuth” who is neither president nor MP in this instance</li>
+<li>13/096: removed speeches which were added twice (Issue <a href="https://github.com/PolMine/GermaParl2/issues/4">#4</a>)</li>
+<li>14/069: removed speeches which were added twice (Issue <a href="https://github.com/PolMine/GermaParl2/issues/4">#4</a>)</li>
+<li>17/148: now prepared based on PDF instead of plain text because of the quality of the source data</li>
+<li>18/191: addressed encoding issue</li>
+</ul>
 <div style="page-break-after: always;"></div>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="changelog.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="overview.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

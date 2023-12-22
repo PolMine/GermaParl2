@@ -1,5 +1,5 @@
 --- 
-title: "The GermaParl Corpus of Plenary Protocols (v2.0.0) - Documentation"
+title: "The GermaParl Corpus of Plenary Protocols (v2.0.1) - Documentation"
 author: "Andreas Blätte and Christoph Leonhardt"
 date: "`r sprintf('Version %s', Sys.Date())`"
 site: bookdown::bookdown_site
@@ -14,8 +14,8 @@ description: |
 link-citations: yes
 # github-repo: xx/xx
 output:
-  bookdown::pdf_book: 
-    extra_dependencies: ["float"]
+  # bookdown::pdf_book:
+  #   extra_dependencies: ["float"]
   bookdown::gitbook:
     split_bib: no
 header-includes: 
@@ -59,16 +59,56 @@ knitr::opts_chunk$set(fig.pos = "H", out.extra = "")
 :::: {.blackbox data-latex=""}
 * Corpus Version: `r RcppCWB:::corpus_property("GERMAPARL2", property = "version")`
 * Documentation Date: `r Sys.Date()`
-* Cite corpus as: Blaette, Andreas, & Leonhardt, Christoph (2023). GermaParl Corpus of Plenary Protocols (v2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7949074.
+* Cite corpus as: Blaette, Andreas, & Leonhardt, Christoph (2023). GermaParl Corpus of Plenary Protocols (v2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10416536.
 
-* Cite documentation as: Blaette, Andreas, & Leonhardt, Christoph (2023). The GermaParl Corpus of Plenary Protocols (v2.0.0) - Documentation. Version `r Sys.Date()`. https://polmine.github.io/GermaParl2
+* Cite documentation as: Blaette, Andreas, & Leonhardt, Christoph (2023). The GermaParl Corpus of Plenary Protocols (v2.0.1) - Documentation. Version `r Sys.Date()`. https://polmine.github.io/GermaParl2
 ::::
+
+\newpage
+
+# Changelog{-}
+
+## v2.0.1{-}
+
+__Major:__
+
+* improved the detection of the end of debates to remove additional remaining appendices (issue [#1](https://github.com/PolMine/GermaParl2/issues/1))
+* added missing speakers caused by missing line breaks (issue [#2](https://github.com/PolMine/GermaParl2/issues/2))
+* improved agenda item recognition in the TEI/XML, in particular in LPs 15 to 17 (issue [#5](https://github.com/PolMine/GermaParl2/issues/5))
+* improved stage annotation mechanism which sometimes resulted in very large paragraphs and missing speakers (issue [#6](https://github.com/PolMine/GermaParl2/issues/6))
+* included four additional sessions in LP 15 (see issue [#7](https://github.com/PolMine/GermaParl2/issues/7))
+* improved recognition of speakers of the federal council with additional and adjusted regular expressions
+
+__Minor:__
+
+* changes to the PDF processing pipeline (improved margins for text extraction, modified regular expressions for end of debates)
+* new regular expressions for stage annotation (e.g. "Anlage", interrupted sessions)
+* more meaningful "position" attribute for guest speakers (in TEI/XML)
+* minor additions to protocol-specific preprocessing functions
+* removed literal "NA" at the end of lines which occurred due to false concatenation in LPs 13-18
+* improved stage annotation in LP 19
+* speakers of regional states now consistently have role "federal_council" instead of "misc"
+* in TEI/XML: speakers in LP 19 have attribute "position" now to match earlier legislative periods. Its value is always "NA"
+* improved concatenation of words split by line breaks
+* fixed false assignment of some governmental or presidential speakers to a parliamentary group. Their parliamentary group is set to "NA" now
+* adjustments in speaker metadata (corrected party assignments, addressed a speaker mismatch)
+
+__Protocol specific changes:__
+
+* 01/019: added accidentally removed second part of the interrupted session (issue [#3](https://github.com/PolMine/GermaParl2/issues/3))
+* 02/101: removed misplaced attachment
+* 13/001: specific expression for "Rita Süssmuth" who is neither president nor MP in this instance
+* 13/096: removed speeches which were added twice (Issue [#4](https://github.com/PolMine/GermaParl2/issues/4))
+* 14/069: removed speeches which were added twice (Issue [#4](https://github.com/PolMine/GermaParl2/issues/4))
+* 17/148: now prepared based on PDF instead of plain text because of the quality of the source data
+* 18/191: addressed encoding issue
+
 
 \newpage
 
 # The GermaParl Corpus - An Overview{#overview}
 
-```{r libraries, echo = FALSE}
+```{r libraries, echo = FALSE, message = FALSE}
 library(polmineR)
 library(ggplot2)
 ```
@@ -82,9 +122,7 @@ Covering about 72 years of parliamentary debate and comprising of `r length(s_at
 The remainder of this section provides a brief overview about the context in which GermaParl is developed and maintained as well as some additional introductory remarks about the resource. Other sections of this documentation contain an in-depth report of the data (Section \@ref(data-report)), a presentation of the data preparation workflow (section \@ref(corpus-preparation)) as well as some more technical and future aspects of corpus development.
 
 :::: {.blackbox data-latex=""}
-_Note:_ This documentation is provided as both a website and a pdf document (realized with the bookdown R package [@Yihui2016]). When referring to this documentation, please quote the pdf version as
-
-Blaette, Andreas, & Leonhardt, Christoph (2023). The GermaParl Corpus of Plenary Protocols (v2.0.0) - Documentation. Version `r Sys.Date()`. https://polmine.github.io/GermaParl2
+_Note:_ This documentation will be provided as both a website and a pdf document, realized with the bookdown R package [@Yihui2016]. The pdf version of this documentation is currently under construction.
 ::::
 
 ## GermaParl in the Context of the PolMine Project
@@ -106,7 +144,7 @@ As mentioned earlier, it is possible to retrieve the corpus manually and use it 
 ```{r eval = FALSE}
 install.packages("polmineR")
 install.packages("cwbtools")
-cwbtools::corpus_install(doi = "10.5281/zenodo.7949074")
+cwbtools::corpus_install(doi = "10.5281/zenodo.10416536")
 ```
 
 ## First steps and Digging Deeper{#getting-started}
@@ -132,6 +170,11 @@ Click on the lessons to watch Christoph’s tutorials (in German)!
 
 It must be noted that the newest version of GermaParl comes with some specific design decisions that result in some differences in the internal structure of the corpus data. For details in this regard, please consult the `r link_or_footnote("release notes of GermaParl v2 Release Candidate 3", "https://polmine.github.io/posts/2023/04/03/GermaParl-v2-beta3-Release-Note.html", "2023-05-22")` for now. In consequence, the set of `polmineR` commands currently (`polmineR` version `r packageVersion("polmineR")`) is not entirely backwards compatible and thus not all commands shown in the videos will work for the new resource. For an in-depth explanation of the internal structure, see section \@ref(xml-structure) about "XML Structure".
 
+### Cookin' with GermaParl Webinar Series
+
+After the initial release of GermaParl v2.0.0, we introduced the "Cookin' with GermaParl" webinar series in which the GermaParl team presents recipes for common approaches on a regular basis. Upcoming sessions are announced via the GermaParl mailing list. Earlier sessions of the webinar series will be made available on YouTube. The presented recipes are made available as R Markdown documents in an online "Cookbook" provided as a GitHub repository.
+
+
 ## License
 
 The license of the GermaParl corpus is the Creative Commons Attribution ShareAlike 4.0 License (CC BY-SA 4.0). That means:
@@ -147,7 +190,7 @@ See the `r link_or_footnote("CC Attribution-ShareAlike 4.0 License", "https://cr
 To ensure the reproducibility of your research, it is important to refer to and specify the corpus (including version and DOI) you used.
 
 :::: {.blackbox data-latex=""}
-Blaette, Andreas, & Leonhardt, Christoph (2023). GermaParl Corpus of Plenary Protocols (v2.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7949074.
+Blaette, Andreas, & Leonhardt, Christoph (2023). GermaParl Corpus of Plenary Protocols (v2.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10416536.
 ::::
 
 ## Acknowledgements

@@ -8,6 +8,24 @@ The general preparation workflow of the corpus has been described in @blaette_ho
 # data from btxml raw here.
 download_report <- read.csv("~/lab/github/btplprxml/data/downloadReport.csv")
 
+corpus_version <- RcppCWB::corpus_property(corpus = "GERMAPARL2",
+                                           property = "version")
+
+# there are versions in which the download date of LP 20 does not matter. Exclude
+# these protocols.
+
+if (corpus_version %in% c("v2.0.0", "v2.0.1")) {
+
+  lp20_protocols_idx <- which(gsub("BT_(\\d{2})_.*$",
+                                   "\\1",
+                                   download_report$filename) == "20")
+
+  if (length(lp20_protocols_idx) > 0) {
+    download_report <- download_report[-lp20_protocols_idx, ]
+  }
+}
+
+
 length_download_dates <- length(unique(download_report$date))
 
 if (length_download_dates == 1) {
@@ -49,11 +67,11 @@ In addition, some XML files actually contain more than one session. This can occ
 * "05047.xml"
 * "05232.xml"
 
-After this split, where possible for each protocol the table of contents, appendices as well as header lines are removed. In addition, expressions in parentheses are moved to a separate line to make the identification of interjections and other nodes easier. Words split by linebreaks are joined where possible by the means of heuristics. Finally, some minor adjustments were made to correct typos or apparent OCR errors which otherwise would hinder the XMLification.
+After this split, where possible for each protocol the table of contents, appendices as well as header lines are removed. In addition, expressions in parentheses are moved to a separate line to make the identification of interjections and other nodes easier. Words split by line breaks are joined where possible by the means of heuristics. Finally, some minor adjustments were made to correct typos or apparent OCR errors which otherwise would hinder the XMLification. Some more comprehensive modifications were made automatically and on a file-by-file basis to account for speeches occuring twice in the raw data.
 
-Aside from having been downloaded before, the decision to use txt files for the period covered by GermaParl v1 was informed by data quality: The txt files used there have a good quality aside from a minor issue which will be discussed shortly. In contrast to the XML files offered by the German *Bundestag* for the same period, these txt files also retain the paragraph structure of the PDF files more often, making the detection of interjections in particular easier. The txt files were used without any major cleaning from the repository they were collected in as raw data in the previous preparation process. The aforementioned minor issue concerned a number of different encoding issues which were looked at carefully. Since txt files are not available for the earlier periods, they were no option.
+Aside from having been downloaded before, the decision to use plain text files for the period covered by GermaParl v1 was informed by data quality: The txt files used there have a good quality aside from a minor issue which will be discussed shortly. In contrast to the XML files offered by the German *Bundestag* for the same period, these txt files also retain the paragraph structure of the PDF files more often, making the detection of interjections in particular easier. The txt files were used without any major cleaning from the repository they were collected in as raw data in the previous preparation process. The aforementioned minor issue concerned a number of different encoding issues which were looked at carefully. Since txt files are not available for the earlier periods, they were no option.
 
-For the gap in the txt files described earlier, PDF files were used. This is quite feasible for these more recent periods of time because compared with older PDF files, the layout of these newer files is very consistent. One remaining challenge is the two-column layout of the files which has to be resolved. This is done using the `r link_or_footnote("trickypdf R package", "https://github.com/PolMine/trickypdf", "2022-05-22")` which has been developed in the context of the PolMine project. It must be noted that as `trickypdf` depends on the poppler utilities to extract data from the PDF files, different versions of trickypdf and poppler influence the outcome of this extraction. Such variations were observed especially regarding whitespace. In consequence the preprocessing of those protocols based on PDF also comprises the removal of additional whitespace and linebreaks.
+For the gap in the txt files described earlier, PDF files were used. This is quite feasible for these more recent periods of time because compared with older PDF files, the layout of these newer files is very consistent. One remaining challenge is the two-column layout of the files which has to be resolved. This is done using the `r link_or_footnote("trickypdf R package", "https://github.com/PolMine/trickypdf", "2022-05-22")` which has been developed in the context of the PolMine project. It must be noted that as `trickypdf` depends on the poppler utilities to extract data from the PDF files, different versions of trickypdf and poppler influence the outcome of this extraction. Such variations were observed especially regarding whitespace. In consequence the preprocessing of those protocols based on PDF also comprises the removal of additional whitespace and line breaks.
 
 The protocols of the 19^th^ legislative period followed a separate processing pipeline and were not preprocessed in the same sense as the raw data which does not contain any structural annotations. The preparation of the most recent protocols is discussed in section \@ref(nineteenth-lp).
 
@@ -63,30 +81,28 @@ During XMLification, the plain text is turned into a structured XML format. Usin
 
 > "Name (Parliamentary Group):" 
 
-which can be used for these purposes. From these speaker calls, the role and - if applicable - the affiliation of a speaker to a parliamentary group can be extracted. Metadata such as the date, the year, the legislative period as well as the session number can be directly retrieved from the original XML files. For those protocols which are prepared based on txt and PDF files, the metadata is also retrieved from these XML files.
+which can be used for these purposes. From these speaker calls, the role and -- if applicable -- the affiliation of a speaker to a parliamentary group can be extracted. Metadata such as the date, the year, the legislative period as well as the session number can be directly retrieved from the original XML files. For those protocols which are prepared based on txt and PDF files, the metadata is also retrieved from these XML files.
 
 Given the long period of time covered by the corpus, the workflow has to take temporal variations and changing conventions into account. For example, using the full name of a speaker is only introduced to the proceedings in the 12^th^ legislative period. As a consequence, regular expressions will lead to mismatches. This is addressed by a list of known mismatches which are excluded from the list of matches the regular expressions generate. This process is used for speakers as well as interjections. 
-
-While the existing GermaParl also used regular expressions to identify agenda items, the updated version does not yet implement this approach. This is due to the rather high amount of manual intervention necessary to address false positives and false negatives in this approach. An alternative strategy was used to add agenda items based on the similarity of agenda items to known agenda items of the 19^th^ legislative period. Since this approach does not yet produce sufficiently reliable results, agenda items are currently not part of the CWB version of the corpus.
 
 Both the battery of initial regular expressions to detect speakers and interjections as well as the formulation of mismatches is done in an iterative fashion, repeatedly checking a sample of the data for results.
 
 ## Consolidation
 
-After the XMLification step, the data was available in a structurally annotated form on a elementary level. However, up until now, only information which is already part of the protocols has been used. Aside from the metadata of the protocols (legislative period, session number, date), each speaker is annotated with family name (legislative periods 1 to 11), first name and family name (legislative periods 12 to 19), possibly local specification (in case of ambivalence of a family name, in legislative periods 1 to 19) and, if applicable, affiliation to a parliamentary group (legislative periods 1 to 19). The role of a speaker can be derived from the speaker call itself (member of parliament, governmental actor, presidential actor or other). 
+After the XMLification step, the data was available in a structurally annotated form on an elementary level. However, up until now, only information which is already part of the protocols has been used. Aside from the metadata of the protocols (legislative period, session number, date), each speaker is annotated with family name (legislative periods 1 to 11), first name and family name (legislative periods 12 to 19), possibly local specification (in case of ambivalence of a family name, in legislative periods 1 to 19) and, if applicable, affiliation to a parliamentary group (legislative periods 1 to 19). The role of a speaker can be derived from the speaker call itself (member of parliament, governmental actor, presidential actor or other).
 
 In consequence, the information about the full name of a speaker is missing for legislative periods 1 to 11. Furthermore, the information about the party affiliation of a speaker is missing in the protocols themselves for all legislative periods. To add this information, external resources must be used.
 
 However, before speakers can be consolidated and information can be added, some flaws or deviating information in the original data must be remedied. These mainly comprise of typos or apparent OCR errors such as additional white space or punctuation marks. In some occasions, the parliamentary group of a speaker is obviously mislabeled. This is modified. Also, in some instances, the local reference of a speaker is only added to the speaker name during the legislative period, for example if a speaker with the same family name joins the *Bundestag* over the course of a legislative period. In other cases, one speaker would remain without a local specification and every additional speaker with the same family name would be disambiguated with a local reference. In some instances, the best way to guarantee that the correct speaker is matched and the correct information is added to the correct speaker is by adding local references. These interventions were realized by using manually curated replacement lists and scripts to make the process repeatable.
 
-During the preparation process, these interventions are documented in a csv document. Because it is the most crucial intervention, the change of the `who` attribute - i.e. the element of the speaker call in the original protocol which was used to identify who is actually speaking - is also part of the final XML: The original `who` particle is stored separately before any modification took place in a separate attribute called `who_original`.
+During the preparation process, these interventions are documented in a csv document. Because it is the most crucial intervention, the change of the `who` attribute -- i.e. the element of the speaker call in the original protocol which was used to identify who is actually speaking -- is also part of the final XML: The original `who` particle is stored separately before any modification took place in a separate attribute called `who_original`.
 
 `r if (knitr::is_latex_output()) "The online version of this documentation contains a table of individual changes. <!--"`
 
 Table \@ref(fig:get-speaker-change-data-from-BuildingGermaParl) illustrates the changes made to the raw data before the consolidation of speaker attributes is performed.
 
 ```{r get-speaker-change-data-from-BuildingGermaParl, echo = FALSE, eval = knitr::is_html_output(), fig.cap = "Pre-Consolidation adjustments"}
-changed_speaker_csv_path <- "data_raw/changed_speaker_attribute_list_dt_2023-05-17.csv"
+changed_speaker_csv_path <- "data_raw/changed_speaker_attribute_list_dt_2023-12-14.csv"
 pre_enhance_change_speaker_attribute_germaparl_dt <- data.table::fread(changed_speaker_csv_path)
 
 pre_enhance_change_speaker_attribute_germaparl_dt[, legislative_period := as.integer(gsub("BT_(\\d+)_.*$", "\\1", file_name))]
@@ -118,7 +134,7 @@ This data comes with three caveats: One is the aforementioned limitation in cove
 
 These three caveats are addressed as follows: The data of the *Stammdaten* is used for members of parliament, while other speakers are covered with Wikipedia data. To allow for the assignment of time-specific party affiliations, lists from Wikipedia (see for example the list of members of parliament in the first legislative period of the German *Bundestag* `r link_or_footnote("on Wikipedia", "https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Deutschen_Bundestages_(1._Wahlperiode)", "2023-05-22")`) are used to add one party affiliation per legislative period to each speaker. While this does not account for speakers leaving or switching parties within legislative periods, it seems like the most achievable granularity available in a structured format. The third limitation is addressed by allowing for a less strict or more fuzzy matching of attributes. For example, some speakers which are annotated as being affiliated to the parliamentary group of DP in the parliamentary proceedings are annotated as belonging to the DP/FVP parliamentary group in the external data. In these cases, it is also possible that a speaker changed the parliamentary group over the course of a legislative period. Here, the proceedings often document the more recent information when compared to the static external information.
 
-For speakers which are not Members of Parliament, this data is mainly gathered from Wikipedia. Governmental actors, for example, can be enriched via individual government or cabinet pages on Wikipedia. For some speakers, the biographical lexicon `r link_or_footnote("Munzinger", "https://www.munzinger.de/search/start.jsp", "2023-05-23")` was a useful resource to identify full names or party affiliations.
+For speakers which are not members of parliament, this data is mainly gathered from Wikipedia. Governmental actors, for example, can be enriched via individual government or cabinet pages on Wikipedia. For some speakers, the biographical lexicon `r link_or_footnote("Munzinger", "https://www.munzinger.de/search/start.jsp", "2023-05-23")` was a useful resource to identify full names or party affiliations.
 
 Table \@ref(tab:sAttrsList) illustrates the source of each attribute. Attributes marked with 'protocol metadata' are directly derived from the XML version of the initial protocols. When 'derived from protocol (regex)' is used, this indicates that the information has been extracted based on the protocol's text using regular expressions. As described earlier, for the most part the party affiliation is taken from legislative specific Wikipedia pages.
 
@@ -162,13 +178,15 @@ Both the XMLified protocol data and the external data can be perceived as tabula
 
 There are scenarios in which this information is still not sufficient to unequivocally disambiguate speakers. In these scenarios, more than one entry in the external data is a reasonable match for a speaker in the protocol data and thus a candidate to draw additional information from. In these cases, three additional sources of distinct speaker-level information were retrieved from the protocols: The named gender of the speaker (identified by testing whether the term "Frau" was found at the beginning of the speaker call), a potentially indicated local reference after the speaker name (such as "Müller (Berlin)") and the position of governmental actors. Both the gender of a speaker and the local reference (mostly indicating the electoral district) can also be found in the Stammdaten. In some instances, the latter does not fully correspond to the information found in the protocols and was adjusted or added in the *Stammdaten* file. For a single governmental speaker, it was necessary to compare the position within the cabinet with the same variable in the external data to sufficiently disambiguate the speaker from a colleague in the same cabinet. 
 
-With this apparatus in place to compare both the protocol data and the external data, the speakers were consolidated - i.e. names were harmonized - and enriched - i.e. information was added.
+With this apparatus in place to compare both the protocol data and the external data, the speakers were consolidated -- i.e. names were harmonized -- and enriched -- i.e. information was added.
 
-As a final step of the consolidation process, agenda items are added via the similarity of sentences of known agenda item calls. For this, the already annotated XMLs of the 19^th^ legislative period are used to extract known agenda item calls are extracted. `quanteda` and `quanteda.textstats` [@quanteda] were used to implement the similarity measure. This is a rather experimental approach and thus not used for the CWB version of the corpus.
+### Annotation of Agenda Items{#agenda-item}
+
+While the previous version of GermaParl used regular expressions to identify agenda items, the updated version does not yet implement this approach for the period of time which is not already covered by the previous release. This is due to the rather high amount of manual intervention necessary to address false positives and false negatives for the additional 13 legislative periods added with GermaParl v2. An alternative strategy was used to add agenda items based on the similarity of sentences in utterances of presidential speakers to known agenda items of the 19^th^ legislative period. For this, `quanteda` and `quanteda.textstats` [@quanteda] were used to implement the similarity measure. This is a rather experimental approach and thus not used for the CWB version of the corpus.
 
 ### Additional Remarks concerning the enhancement of speakers
 
-There are some special speakers which occur rarely and need specific handling. For one, this concerns former presidents of Germany, or *Bundespräsidenten*, who occasionally speak after leaving office, in particular when their successor is sworn in. These speakers are annotated as *Bundespräsidenten* although they technically are not in office anymore. In addition, in the protocols, speakers whos name contains the letter "ß" are sometimes written with "ss" instead. For GermaParl v2, an attempt was made to harmonize these different spellings, although remaining variations are likely.
+There are some special speakers which occur rarely and need specific handling. For one, this concerns former presidents of Germany, or *Bundespräsidenten*, who occasionally speak after leaving office, in particular when their successor is sworn in. These speakers are annotated as *Bundespräsidenten* although they technically are not in office anymore. In addition, in the protocols, the names of speakers which contain the letter "ß" are sometimes written with "ss" instead. For GermaParl v2, an attempt was made to harmonize these different spellings, although remaining variations are likely.
 
 ## The 19^th^ Legislative Period as a Special Case{#nineteenth-lp}
 

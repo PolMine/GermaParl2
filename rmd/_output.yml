@@ -6,8 +6,8 @@ bookdown::gitbook:
         
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s
-    download: ["pdf"]
+    download: no
+    sharing: null
 bookdown::pdf_book:
   extra_dependencies: ["float"]
   includes:
